@@ -1,0 +1,54 @@
+/**
+ * Created by zhaopeng on 2017/6/7.
+ */
+.modal-title{
+    text-align: center;
+}
+.item-media, form .material-icons{
+    color: #2196f3;
+}
+.list-block{
+    margin: 0;
+}
+.content-block-title{
+    padding-top: 8px;
+}
+#ks-picker-day,#ks-picker-time{
+    text-align: center;
+    font-size: 18px;
+    color: #2196f3;
+}
+.ks-time-outer .not-empty-state.input-field:after, .ks-time-outer .not-empty-state .item-input-field:after,
+.ks-time-outer .focus-state.input-field:after, .ks-time-outer .focus-state .item-input-field:after,
+.ks-time-outer ul:before{
+    background:none;
+}
+.logo{
+    font-size: 100px;
+    color: #2196f3;
+}
+.clock{
+    font-size: 200px;
+    color: #2196f3;
+}
+.navindex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+}
+.openAPP, .openTitle{
+    font-size: 30px;
+    font-weight: 300;
+}
+.openAPP{
+    padding: 10px 30px;
+    box-sizing: content-box;
+}

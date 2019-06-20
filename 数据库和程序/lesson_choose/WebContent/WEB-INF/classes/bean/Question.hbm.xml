@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="bean">
+<class name="Question">
+ <id name="id">
+  <generator class="native" />
+ </id>
+ <property name="tid"/>
+ <property name="zt" />
+ <property name="con" />
+  <property name="title" />
+</class>
+</hibernate-mapping>

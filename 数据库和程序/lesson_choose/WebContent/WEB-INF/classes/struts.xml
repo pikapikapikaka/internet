@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.action.extension"   value="action"/>
+    <package name="default" extends = "struts-default">
+        <!-- 包名不能重复，否则会出错 -->
+        <action name="man_yz" class="dao.ManagerDao" method="yz">
+        	<result name="success">/Manager/come.jsp</result>
+        	<result name="fail">/index.jsp</result>
+            <!-- 这是代表先用第一个方法 -->
+        </action>
+        <action name="m_delete_check" class="dao.ManagerDao" method="delete_check">
+        	<result name="success">/Manager/success.jsp</result>
+        </action>
+        <action name="m_delete_stu" class="dao.ManagerDao" method="delete_stu">
+        	<result name="success">/Manager/success.jsp</result>
+        </action>
+        <action name="m_keti_select" class="dao.ManagerDao" method="keti_select">
+        	<result name="teacher">/Manager/t_keti.jsp</result>
+        	<result name="student">/Manager/s_keti.jsp</result>
+        	<result name="fail">/Manager/fail.jsp</result>
+        </action>
+        <action name="m_s_add" class="dao.ManagerDao" method="s_add">
+        	<result name="success">/Manager/success.jsp</result>
+        	<result name="fail">/Manager/fail.jsp</result>
+        </action>
+        <action name="m_s_ischecked" class="dao.ManagerDao" method="s_ischecked">
+        	<result name="success">/Manager/stu_checked.jsp</result>
+        </action>
+        <action name="m_t_s" class="dao.ManagerDao" method="t_s">
+        	<result name="success">/Manager/success.jsp</result>
+        </action>
+        <action name="man_update" class="dao.ManagerDao" method="update">
+        	<result name="success">/Manager/see.jsp</result>
+        	<result name="fail">/Manager/update.jsp</result>
+            <!-- 这是代表管理员信息管理 -->
+        </action> 
+        <action name="pic" class="dao.ManagerDao" method="pic_man">
+        	<result name="success">/Manager/pic_man.jsp</result>
+            <!-- 这是代表从数据库查看图片-->
+        </action>
+        <action name="pic_upload" class="dao.ManagerDao" method="pic_upload">
+        	<result name="success" type="chain">pic</result>
+            <!-- 图片上传-->
+        </action>    
+        <action name="stu_in" class="dao.ManagerDao" method="stu_in">
+        	<result name="success">/Manager/success.jsp</result>
+            <!-- 这是代表excel导入学生数据 -->
+        </action> 
+        <action name="stu_add" class="dao.ManagerDao" method="stu_add">
+        	<result name="success">/Manager/success.jsp</result>
+            <!-- 这是代表添加一个学生的数据 -->
+        </action>
+        <action name="stu_man" class="dao.ManagerDao" method="stu_man">
+        	<result name="success">/Manager/stu_man.jsp</result>
+            <!-- 这是代表先用第一个方法 -->
+        </action>   
+        <action name="stu_delete" class="dao.ManagerDao" method="stu_delete">
+        	<result name="success">/Manager/success.jsp</result>
+            <!-- 这是代表闪出一个学生的数据 -->
+        </action>  
+        <action name="pic_delete" class="dao.ManagerDao" method="pic_delete">
+        	<result name="success" type="chain">pic</result>
+            <!-- 这是代表先删除图片方法 -->
+        </action> 
+        <action name="stu_select" class="dao.ManagerDao" method="stu_select">
+        	<result name="success">/Manager/stu_other.jsp</result>
+        	<!-- 按照不同类型查找学生 -->
+        </action>
+        <action name="tea_select" class="dao.ManagerDao" method="tea_select">
+        	<result name="success">/Manager/tea_other.jsp</result>
+        	<!-- 按照不同类型查找教师 -->
+        </action>   
+        <action name="tea_man" class="dao.ManagerDao" method="tea_man">
+        	<result name="success">/Manager/tea_man.jsp</result>
+        	<!-- 教师信息查询 -->
+        </action> 
+        <action name="tea_in" class="dao.ManagerDao" method="tea_in">
+        	<result name="success">/Manager/success.jsp</result>
+        	<!-- 批量导入老师信息 -->
+        </action> 
+        <action name="tea_update" class="dao.ManagerDao" method="tea_update">
+        	<result name="success" >/Manager/tea_update.jsp</result>
+        	<!-- 修改老师信息 -->
+        </action> 
+        <action name="teacher_update" class="dao.ManagerDao" method="teacher_update">
+        	<result name="success" type="chain">tea_man</result>
+        	<!-- 修改老师信息 -->
+        </action>
+        <action name="tea_delete" class="dao.ManagerDao" method="tea_delete">
+        	<result name="success" >/Manager/success.jsp</result>
+        	<!-- 修改老师信息 -->
+        </action>
+        <action name="tea_add" class="dao.ManagerDao" method="tea_add">
+        	<result name="success">/Manager/success.jsp</result>
+        	<result name="fail">/Manager/tea_add.jsp</result>
+        	<!-- 添加老师信息 -->
+        </action>    
+        <action name="control" class="dao.ManagerDao" method="control">
+        	<result name="success">/Manager/control.jsp</result>
+        </action>
+        <action name="con_gg" class="dao.ManagerDao" method="con_gg">
+        	<result name="success" type="chain">control</result>
+        </action>     
+    </package>
+    <package name="student" extends = "struts-default">
+         <action name="stu_yz" class="dao.StudentDao" method="yz">
+             <result name="success">/Student/come.jsp</result>
+         	 <result name="fail">/index.jsp</result>
+         	 <!-- 学生登录验证 -->
+         </action>
+         <action name="s_stu_update" class="dao.StudentDao" method="stu_update">
+             <result name="success">/Student/see.jsp</result>
+         	 <!-- 学生信息更新 -->
+         </action>
+         <action name="s_stu_pwd" class="dao.StudentDao" method="stu_pwd">
+             <result name="success">/Student/success.jsp</result>
+             <result name="fail">/Student/stu_pwd.jsp</result>
+         	 <!-- 学生信息更新 -->
+         </action>
+         <action name="s_keti_select" class="dao.StudentDao" method="keti_select">
+        	<result name="success">/Student/keti_select.jsp</result>
+        </action> 
+        <action name="s_keti_ack" class="dao.StudentDao" method="keti_ack">
+        	<result name="success">/Student/myketi.jsp</result>
+        	<result name="fail">/Student/myketi.jsp</result>
+        </action> 
+        <action name="s_keti_cancel" class="dao.StudentDao" method="keti_cancel">
+        	<result name="success">/Student/myketi.jsp</result>
+        </action> 
+        <action name="s_keti_mohu" class="dao.StudentDao" method="keti_mohu">
+        	<result name="keti">/Student/all_keti.jsp</result>
+        	<result name="teacher">/Student/teacher.jsp</result>
+        </action>
+        <action name="s_t_look" class="dao.StudentDao" method="t_look">
+        	<result name="success">/Student/all_keti.jsp</result>
+        </action>
+    </package>
+    <package name="teacher" extends = "struts-default">
+         <action name="tea_yz" class="dao.TeacherDao" method="yz">
+             <result name="success">/Teacher/come.jsp</result>
+         	 <result name="fail">/index.jsp</result>
+         	 <!-- 老师登录验证 -->
+         </action>
+         <action name="t_tea_update" class="dao.TeacherDao" method="tea_update">
+             <result name="success">/Teacher/see.jsp</result>
+         </action>
+         <action name="t_s_check" class="dao.TeacherDao" method="s_check">
+             <result name="success">/Teacher/student.jsp</result>
+         </action>
+         <action name="t_tea_pwd" class="dao.TeacherDao" method="tea_pwd">
+             <result name="success">/Teacher/success.jsp</result>
+         </action>
+         <action name="t_tea_keti" class="dao.TeacherDao" method="tea_keti">
+             <result name="success">/Teacher/keti_man.jsp</result>
+         </action>
+         <action name="t_keti_add" class="dao.TeacherDao" method="keti_add">
+             <result name="success" type="chain">t_tea_keti</result>
+         </action>
+         <action name="t_keti_update" class="dao.TeacherDao" method="keti_update">
+             <result name="success" type="chain">t_tea_keti</result>
+         </action>
+         <action name="t_keti_delete" class="dao.TeacherDao" method="keti_delete">
+             <result name="success" type="chain">t_tea_keti</result>
+         </action>
+    </package>
+</struts>

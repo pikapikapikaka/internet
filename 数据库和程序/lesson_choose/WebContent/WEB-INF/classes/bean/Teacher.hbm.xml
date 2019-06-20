@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="bean">
+<class name="Teacher">
+ <id name="id">
+  <generator class="assigned" />
+ </id>
+ <property name="name"/>
+ <property name="pwd" />
+ <property name="phone" />
+ <property name="xy" />
+ <property name="sex" />
+ <property name="num" />
+ <property name="rank" />
+</class>
+</hibernate-mapping>

@@ -1,0 +1,2589 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>I Love You Forever</title>
+		<meta name="author" content="Mike">
+		
+		<link rel="stylesheet" href="./jscss/style.css" type="text/css" media="all">
+		<!--导库-->
+		<script type="text/javascript" src="./jscss/jquery.js"></script>
+		<!-- 图片幻灯片效果-->
+		<script type="text/javascript" src="./jscss/roundabout.js"></script>
+		<script type="text/javascript" src="./jscss/roundabout_shapes.js"></script>
+		<script type="text/javascript" src="./jscss/gallery_init.js"></script>
+		<!-- 下雪-->
+		<script type="text/javascript" src="./jscss/snowstorm.js"></script>
+		<!-- 打字机效果-->		
+		<script type="text/javascript" src="./jscss/text.js"></script>
+		<!-- 画爱心-->
+		<script type="text/javascript" src="./jscss/ga.js" async=""></script>
+		<script type="text/javascript" src="./jscss/heart.js"></script>
+		<!-- 移动div-->
+		<script type="text/javascript" src="./jscss/move.js"></script>
+		<!-- 显示时间 -->
+		<script type="text/javascript" src="./jscss/time.js"></script>
+		<!-- 设置文字跟随鼠标 -->
+		<script type="text/javascript" src="./jscss/makesnake.js"></script></head><body background="#FF99FF">
+		<!-- thanks for watching! -->
+		<span id="span0" class="spanstyle">T</span><span id="span1" class="spanstyle">h</span>
+		<span id="span2" class="spanstyle">i</span><span id="span3" class="spanstyle">s</span>
+		<span id="span4" class="spanstyle"> </span><span id="span5" class="spanstyle">i</span><span id="span6" class="spanstyle">s
+		 </span><span id="span7" class="spanstyle"> </span><span id="span8" class="spanstyle">y</span><span id="span9" class="spanstyle">o</span>
+		 <span id="span10" class="spanstyle">u</span><span id="span11" class="spanstyle">r</span>
+		 <span id="span12" class="spanstyle"> </span><span id="span13" class="spanstyle">w</span><span id="span14" class="spanstyle">e</span><span id="span15" class="spanstyle">b</span>
+		 <span id="span16" class="spanstyle">s</span><span id="span17" class="spanstyle">i</span><span id="span18" class="spanstyle">t</span><span id="span19" class="spanstyle">t</span>
+	
+
+	
+		<script type="text/javascript">
+			setTimeout(makesnake, 42000);
+		</script>
+		<!--#Header-->
+		<div id="header" style="opacity:0.85">
+			<div id="title">
+				I Love You Forever
+			</div>
+		</div>
+
+		<!-- #myContent -->
+		<div id="myContent">
+				<span id="blink" style="display: none;">_</span></div>
+		<div id="contentToWrite" style="display:none">
+			     世界很小    <br>
+				我的一偶天地全都是你  <br>
+				在眼里，心里      <br>
+				     <br>
+				世界很大<br>
+				我花了二十三年光阴<br/>
+				才相识泰山脚下<br/>
+			       <br/>
+				世界很冷<br/>
+				曾经没有你的日子<br/>
+				全是寒冬<br/>
+		          <br/>
+				现在很暖<br/>
+				和你相处的日子<br/>
+				都是四月天<br/>
+				<br>
+				-----------------------Just for You<br>
+		</div>
+		<script type="text/javascript">
+			writeContent(true);
+		</script>
+		
+
+		<!-- #container -->
+		<div id="container">
+			<ul id="myRoundabout" class="roundabout-holder" style="padding: 0px; position: relative; z-index: 100;">
+		  	<li class="roundabout-moveable-item roundabout-in-focus" current-scale="1.0000" style="position: absolute; left: 122px; top: 87px; width: 350px; height: 222px; opacity: 1; z-index: 400; font-size: 16px;"><img src="./jscss/1.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: -0.4px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="./jscss/2.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: 473.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="./jscss/3.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: -39.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="./jscss/4.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: 317px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="./jscss/5.jpg" alt=""></li>
+		  </ul>
+		</div>
+		<script type="text/javascript">
+			setTimeout(move, 15000);
+		</script>
+  		
+  		<!-- #bg -->
+		<div id="bg">
+			<canvas id="garden" width="1583" height="709"><c style="color: #FFF; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:50px">你的浏览器过时了,试试火狐吧!</c></canvas>
+		</div>
+
+		<!-- #time -->
+		<div id="time">
+			<span id="show"></span>
+			<script type="text/javascript">
+				setTimeout("showTime()", 40000);
+			</script>
+		</div>
+
+	
+	
+
+</body>
+
+<?php
+
+namespace app\wxcampus\controller;
+
+use app\logmanage\model\Log;
+use app\manageconfig\model\LocationManage;
+use app\manageconfig\model\ScheduleItem;
+use app\manageconfig\model\ScheduleTime;
+use app\wx\common\Common;
+use think\Controller;
+use app\manageconfig\model\ScheduleDefault as ScheduleDefaultModel;
+use think\Exception;
+use think\Request;
+use think\Db;
+use think\Model;
+
+class ScheduleDefault extends Common
+{
+
+    /**管理默认日程的界面*/
+    public function index($uid, $wxcode,$name,$number)
+    {
+        if(!$this->checkManageScheduleAuthority($uid)){
+            return $this->error('您没有管理默认日程的权限哦~');
+        }
+        $this->assign("uid", $uid);
+        $this->assign("userid", $uid);
+        $this->assign("wxcode", $wxcode);
+        $this->assign("defaultSchedules", ScheduleDefaultModel::getDefaultSchedules($uid));
+        $this->assign("name",$name);
+        $this->assign("number",$number);
+        return $this->fetch();
+    }
+
+    /**
+     *添加默认日程界面
+     */
+    public function wx_add_schedule_default($uid, $wxcode,$name,$number)
+    {
+        if(!$this->checkManageScheduleAuthority($uid)){
+            return $this->error('您没有管理默认日程的权限哦~');
+        }
+        $this->assign("uid", $uid);
+        $this->assign("userid", $uid);
+        $this->assign("wxcode", $wxcode);
+        $this->assign("title", "添加默认日程");
+        $scheduleTime=new ScheduleTime();
+        $this->assign('times',$scheduleTime->getAllTime());
+        $place=new LocationManage();
+        $this->assign('places',$place->getAllLocationInfo());
+        $item=new ScheduleItem();
+        $this->assign('items',$item->getAllItems());
+        $this->assign("name",$name);
+        $this->assign("number",$number);
+        return $this->fetch();
+    }
+
+    /**
+     * 添加默认日程动作
+     */
+    public function addDefaultSchedule($uid)
+    {
+        if(!$this->checkManageScheduleAuthority($uid)){
+            return json(['code' => 405, 'msg' =>'您没有添加默认日程的权限哦~']);
+        }
+        $param = Request::instance()->post();
+        $res = $this->validate($param, 'app\manageconfig\validate\ScheduleDefault');//验证是否符合规范
+        if (true !== $res) {
+            return json(['code' => 403, 'msg' => '参数不符合规则：' . $res]);
+        }
+        $schedule = new ScheduleDefaultModel();
+        try {
+            $schedule->setUserId($uid);
+            $schedule->setDay($param['day']);
+            $schedule->setTime($param['time']);
+            $schedule->checkSameTimeDefaultSchedule();
+            $schedule->setPlace($param['place']);
+            $schedule->setItem($param['item']);
+            $schedule->setNote($param['note']);
+        } catch (\InvalidArgumentException $e) {
+            return json(['code' => $e->getCode(), 'msg' => $e->getMessage()]);
+        }
+        $schedule->is_delete = 0;
+        $schedule->update_time = date("Y-m-d H:i:s");
+        if ($schedule->save()) {
+            $log = new Log();
+            $log->recordLogApi($uid, 2, 0, "schedule_default", [$schedule->id]);
+            return json(['code' => 1, 'msg' => 'success']);
+        } else {
+            return json(['code' => -1, 'msg' => '添加失败，发生未知错误']);
+        }
+    }
+
+    /**
+     *修改默认日程界面
+     */
+    public function wx_update_schedule_default($uid, $id,$wxcode,$name,$number)
+    {// $item_id, $day, $time, $place, $item, $note, , $place_id
+        $scheduleDefault=ScheduleDefaultModel::getDefaultSchedule($id);
+        $this->assign("uid", $uid);
+        $this->assign("userid", $uid);
+        $this->assign("item_id", $scheduleDefault->item_id);//默认事项id
+        $this->assign("time", $scheduleDefault->time);//待更改默认事项时间
+        $this->assign("place", $scheduleDefault->place);//待更改默认事项地点
+        $this->assign("item", $scheduleDefault->item);//待更改默认事项内容
+        $this->assign("day", $scheduleDefault->day);
+        $this->assign("note", $scheduleDefault->note);//待更改默认事项备注
+        $this->assign("wxcode", $wxcode);
+        $this->assign("title", "更新默认日程");
+        $this->assign("id", $id);
+        $this->assign("place_id", $scheduleDefault->place_id);
+//        $this->assign("item_id", $item_id);//默认事项id
+//        $this->assign("time", $time);//待更改默认事项时间
+//        $this->assign("place", $place);//待更改默认事项地点
+//        $this->assign("item", $item);//待更改默认事项内容
+//        $this->assign("day", $day);
+//        $this->assign("note", $note);//待更改默认事项备注
+//        $this->assign("wxcode", $wxcode);
+//        $this->assign("title", "更新默认日程");
+//        $this->assign("id", $id);
+//      	$this->assign("place_id", $place_id);
+        $this->assign("name",$name);
+        $this->assign("number",$number);
+        return $this->fetch();
+    }
+
+    public function updateDefaultSchedule($id, $uid)
+    {
+        $param = Request::instance()->post();
+
+        $time = $param['time'];
+        $place = $param['place'];
+        $item = $param['item'];
+        $day = $param['day'];
+        $note = $param['note'];
+
+        $place_id = Db::table('schedule_place')->where('name', $place)->find()['id'];
+        $item_id = Db::table('schedule_item')->where('name', $item)->find()['id'];
+        $time_id = Db::table('schedule_time')->where('name', $time)->find()['id'];
+
+        //schedule_default表里是直接存的day和note的数据，而不是id
+
+
+        $info = Db::name('schedule_default')->where('id', $id)
+            ->update(['day'=>$day, 'note'=>$note ,'time_id'=>$time_id ,'user_id'=>$uid, 'place_id'=>$place_id, 'item_id'=>$item_id, "update_time"=>date("Y-m-d H:i:s")]);
+        if($info){
+            return json(['code' => 1, 'msg' => 'success']);
+        } else {
+            return json(['code' => -1, 'msg' => '修改失败，发生未知错误']);
+        }
+
+    }
+
+    /**
+     *删除默认日程界面
+     */
+    public function wx_delete_schedule_default($id, $uid, $wxcode,$name,$number)
+    {
+        //执行删除的操作
+        $result = Db::name("schedule_default")->where('id', $id)->update(['is_delete' => 1, "delete_time" => date("Y-m-d H:i:s")]);
+        //header("Location: schedule_default/index");
+        /*if ($result) {
+            return json(['code' => 1, 'msg' => 'success']);
+        } else {
+            return json(['code' => -1, 'msg' => '删除失败，发生未知错误']);
+        }*/
+        $this->redirect('ScheduleDefault/index',['uid'=>$uid, 'wxcode'=>$wxcode,'name'=>$name,'number'=>$number]);
+        //return $this->index($uid, $wxcode);
+        //$this->index()
+
+    }
+    /**
+     * 修改默认日程界面
+     */
+    public function wx_edit_schedule_default($uid, $wxcode, $schedule){
+        $this->assign("uid", $uid);
+        $this->assign("userid", $uid);
+        $this->assign("wxcode", $wxcode);
+        $this->assign("note", $schedule['note']);
+        $this->assign("title", "修改默认日程");
+        return $this->fetch();
+    }
+
+
+}
+
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%;">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/2.0.0/weui.css">
+    <title>默认日程</title>
+
+</head>
+<body ontouchstart style="height: 100%; background-color: #ededed">
+<div class="weui-tab">
+    <div class="weui-tab__panel">
+        <div class="weui-panel weui-panel_access">
+            <div class="weui-flex" style="padding-top: 10px">
+                <div class="weui-flex__item">
+                    <div class="placeholder" style="text-align: left;margin-left: 21px; color: #07C160">
+                        <a onclick="window.history.back()">
+                            <img src="__STATIC__/wx/img/before.png" style="height: 17px" id="left">
+                        </a>
+                    </div>
+                </div>
+                <div class="weui-flex__item">
+                    <div class="placeholder" style="font-size: 17px" id="title">默认日程列表</div>
+                </div>
+                <div class="weui-flex__item">
+                    <div class="placeholder" style="text-align: right;margin-right: 21px; color: #07C160">
+                        <a href="{:url('Index/index',['wxcode'=>$wxcode,'name'=>$name,'number'=>$number,'userid'=>$uid])}">
+                            <img src="__STATIC__/wx/img/wode.png" style="height: 17px" id="right" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {volist name="defaultSchedules" id="schedule" empty="空空如也"}
+            <a class="weui-cell  weui-cell_example" >
+                <div class="weui-cell__hd"><img src="__STATIC__/wx/img/richeng_on.png" alt=""
+                                                style="width:50px;margin-right:16px;display:block;border-radius: 5px">
+                </div>
+                <div class="weui-cell__bd">
+                    <h4 class="weui-media-box__title">{$schedule->getDay().$schedule->getTime()}</h4>
+                    <p class="weui-media-box__desc">{$schedule->getPlace()}　－＞　{$schedule->getItem()}</p>
+                    <p class="weui-media-box__desc">备注：{$schedule->note}</p>
+                </div>
+                <div class=" weui-cell__ft">
+                </div>
+                <div>
+                    <!--'item_id'=>$schedule->item_id,
+                    'day'=>$schedule->getDay(), 'time'=>$schedule->getTime(),'place'=>$schedule->getPlace(),
+                    'item'=>$schedule->getItem(), 'place_id'=>$schedule->place_id,
+                              'note'=>$schedule->note,-->
+                    <a href="{:url('wx_update_schedule_default',['uid'=>$uid, 'id'=>$schedule->id ,'wxcode'=>$wxcode,'name'=>$name,'number'=>$number])}">修改</a>
+                    <a  href="{:url('wx_delete_schedule_default',['id'=>$schedule->id,'uid'=>$uid, 'wxcode'=>$wxcode,'name'=>$name,'number'=>$number])}" id="{$schedule->id}"
+                        onclick="return sure(this)">删除</a>
+                </div>
+            </a>
+            <script type="text/javascript">
+                function sure(that) {
+                    let res = confirm("你确定要删除吗？");
+                    if(res){
+                       return true;
+                    }else {
+                        return res;
+                    }
+
+                }
+            </script>
+            {/volist}
+            <div class="weui-btn-area" style="position: fixed;bottom:70px ;right:5px;z-index:9999;">
+                <a class="weui-btn weui-btn_block weui-btn_primary"
+                   href="{:url('wx_add_schedule_default',['uid'=>$uid,'wxcode'=>$wxcode,'name'=>$name,'number'=>$number])}" id="showTooltips"
+                   style="padding: 0px;font-size: 30px;width: 47px;height: 47px;border-radius: 50%">+</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="__STATIC__/assets/js/vendor/jquery-2.1.4.min.js"></script>
+<script src="__STATIC__/assets/js/popper.min.js"></script>
+<script src="__STATIC__/assets/js/bootstrap.min.js"></script>
+<script src="__STATIC__/assets/js/jquery.matchHeight.min.js"></script>
+<script src="__STATIC__/assets/js/main.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/datatables.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/jszip.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/vfs_fonts.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/buttons.html5.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/buttons.print.min.js"></script>
+<script src="__STATIC__/assets/js/lib/data-table/buttons.colVis.min.js"></script>
+<script src="__STATIC__/assets/js/init/datatables-init.js"></script>
+
+</body>
+</html>
+(function ($) {
+
+		    function Vector(x, y) {
+			this.x = x;
+			this.y = y;
+		    };
+		    Vector.prototype = {
+			rotate: function (theta) {
+			    var x = this.x;
+			    var y = this.y;
+			    this.x = Math.cos(theta) * x - Math.sin(theta) * y;
+			    this.y = Math.sin(theta) * x + Math.cos(theta) * y;
+			    return this;
+			},
+			mult: function (f) {
+			    this.x *= f;
+			    this.y *= f;
+			    return this;
+			},
+			clone: function () {
+			    return new Vector(this.x, this.y);
+			},
+			length: function () {
+			    return Math.sqrt(this.x * this.x + this.y * this.y);
+			},
+			subtract: function (v) {
+			    this.x -= v.x;
+			    this.y -= v.y;
+			    return this;
+			},
+			set: function (x, y) {
+			    this.x = x;
+			    this.y = y;
+			    return this;
+			}
+		    };
+
+		    function Petal(stretchA, stretchB, startAngle, angle, growFactor, bloom) {
+			this.stretchA = stretchA;
+			this.stretchB = stretchB;
+			this.startAngle = startAngle;
+			this.angle = angle;
+			this.bloom = bloom;
+			this.growFactor = growFactor;
+			this.r = 1;
+			this.isfinished = false;
+		    }
+		    Petal.prototype = {
+			draw: function () {
+			    var ctx = this.bloom.garden.ctx;
+			    var v1, v2, v3, v4;
+			    v1 = new Vector(0, this.r).rotate(Garden.degrad(this.startAngle));
+			    v2 = v1.clone().rotate(Garden.degrad(this.angle));
+			    v3 = v1.clone().mult(this.stretchA); //.rotate(this.tanAngleA);
+			    v4 = v2.clone().mult(this.stretchB); //.rotate(this.tanAngleB);
+			    ctx.strokeStyle = this.bloom.c;
+			    ctx.beginPath();
+			    ctx.moveTo(v1.x, v1.y);
+			    ctx.bezierCurveTo(v3.x, v3.y, v4.x, v4.y, v2.x, v2.y);
+			    ctx.stroke();
+			},
+			render: function () {
+			    if (this.r <= this.bloom.r) {
+			        this.r += this.growFactor; // / 10;
+			        this.draw();
+			    } else {
+			        this.isfinished = true;
+			    }
+			}
+		    }
+		    function Bloom(p, r, c, pc, garden) {
+			this.p = p;
+			this.r = r;
+			this.c = c;
+			this.pc = pc;
+			this.petals = [];
+			this.garden = garden;
+			this.init();
+			this.garden.addBloom(this);
+		    }
+		    Bloom.prototype = {
+			draw: function () {
+			    var p, isfinished = true;
+			    this.garden.ctx.save();
+			    this.garden.ctx.translate(this.p.x, this.p.y);
+			    for (var i = 0; i < this.petals.length; i++) {
+			        p = this.petals[i];
+			        p.render();
+			        isfinished *= p.isfinished;
+			    }
+			    this.garden.ctx.restore();
+			    if (isfinished == true) {
+			        this.garden.removeBloom(this);
+			    }
+			},
+			init: function () {
+			    var angle = 360 / this.pc;
+			    var startAngle = Garden.randomInt(0, 90);
+			    for (var i = 0; i < this.pc; i++) {
+			        this.petals.push(new Petal(Garden.random(Garden.options.petalStretch.min, Garden.options.petalStretch.max), Garden.random(Garden.options.petalStretch.min, Garden.options.petalStretch.max), startAngle + i * angle, angle, Garden.random(Garden.options.growFactor.min, Garden.options.growFactor.max), this));
+			    }
+			}
+		    }
+
+		    function Garden(ctx, element) {
+			this.blooms = [];
+			this.element = element;
+			this.ctx = ctx;
+		    }
+		    Garden.prototype = {
+			render: function () {
+			    for (var i = 0; i < this.blooms.length; i++) {
+			        this.blooms[i].draw();
+			    }
+			},
+			addBloom: function (b) {
+			    this.blooms.push(b);
+			},
+			removeBloom: function (b) {
+			    var bloom;
+			    for (var i = 0; i < this.blooms.length; i++) {
+			        bloom = this.blooms[i];
+			        if (bloom === b) {
+			            this.blooms.splice(i, 1);
+			            return this;
+			        }
+			    }
+			},
+			createRandomBloom: function (x, y, Size) {
+				//Garden.randomInt(Garden.options.bloomRadius.min, Garden.options.bloomRadius.max),
+			    this.createBloom(x, y, 
+			    		Size,
+			    		Garden.randomrgba(Garden.options.color.min, Garden.options.color.max, Garden.options.color.opacity), 
+			    		Garden.randomInt(Garden.options.petalCount.min, Garden.options.petalCount.max));
+			},
+			createBloom: function (x, y, r, c, pc) {
+			    new Bloom(new Vector(x, y), r, c, pc, this);
+			},
+			clear: function () {
+			    this.blooms = [];
+			    this.ctx.clearRect(0, 0, this.element.width, this.element.height);
+			}
+		    }
+
+		    Garden.options = {
+			petalCount: {
+			    min: 9,
+			    max: 13
+			},
+			petalStretch: {
+			    min: 0.9,
+			    max: 3
+			},
+			growFactor: {
+			    min: 0.1,
+			    max: 1
+			},
+			bloomRadius: {
+			    min: 5,
+			    max: 10
+			},
+			density: 50,
+			growSpeed: 1000 / 30,
+			color: {
+			    min: 0,
+			    max: 90,
+			    opacity: 0.05
+			},
+			tanAngle: 90
+		    };
+		    Garden.random = function (min, max) {
+		    	return Math.random() * (max - min) + min;
+		    };
+		    Garden.randomInt = function (min, max) {
+		    	return Math.floor(Math.random() * (max - min + 1)) + min;
+		    };
+		    Garden.circle = 2 * Math.PI;
+		    Garden.degrad = function (angle) {
+		    	return Garden.circle / 360 * angle;
+		    };
+		    Garden.raddeg = function (angle) {
+		    	return angle / Garden.circle * 360;
+		    };
+		    Garden.rgba = function (r, g, b, a) {
+		    	return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
+		    };
+		    Garden.randomrgba = function (min, max, a) {
+		    	//return Garden.rgba(Math.round(Garden.random(250, 255)), Math.round(Garden.random(200, 210)), Math.round(Garden.random(200, 210)), 0.05);//紫色
+		    	return Garden.rgba(Math.round(Garden.random(180, 250)), Math.round(Garden.random(80, 255)), Math.round(Garden.random(50, 180)), 0.15);//橙色,粉红,紫色
+		    };
+
+		    $(function () {
+
+			$window = $(window);
+
+			// garden
+			var gardenCtx, gardenCanvas, $garden, garden;
+
+			// saveCanvas
+			var saveCtx, saveCanvas;
+
+			// setup save
+			saveCanvas = $("#garden")[0];
+			saveCanvas.width = $window.width();
+			saveCanvas.height = $window.height();
+			saveCtx = saveCanvas.getContext("2d");
+			saveCtx.globalCompositeOperation = "lighter";
+
+			// setup garden
+			$garden = $("#garden");
+			gardenCanvas = $garden[0];
+			gardenCanvas.width = $window.width();
+			gardenCanvas.height = $window.height() - 20;
+			gardenCtx = gardenCanvas.getContext("2d");
+			gardenCtx.globalCompositeOperation = "lighter";
+			garden = new Garden(gardenCtx, gardenCanvas);
+
+			// renderLoop
+			setInterval(function () {
+			    garden.render();
+			}, Garden.options.growSpeed);
+
+			//---------------------------------------------------------------
+			//Draw My Picture
+			var r = 18;
+			var flag = 0;
+			var time, temp = 800;
+			var radian = Math.PI;//弧度
+			var radianDecrement = Math.PI / 370 * 2;;//弧度增量
+			var heartX, heartY;
+			var LX = 700, LY = 370;
+			var URowX = LX, URowY = LY;
+			var DRowX = LX, DRowY = LY;
+			var LRollX = LX, LRollY = LY;
+			var RRollX = LX, RRollY = LY;
+			
+			for(var i=0;i<350;i++){
+				time = 30*(i + temp);
+				setTimeout(drawHeart, time);
+			}
+			
+ 
+			
+			for(var j = 0; j < 20; j++){
+				//setTimeout(drawRect_URow, 60 * j + 35000);
+			}
+			
+			for(var j = 0; j < 21; j++){
+				//setTimeout(drawRect_DRow, 60 * j + 20 * 65 + 36000);
+			}
+			
+			for(var j = 0; j < 5; j++){
+				//setTimeout(drawRect_LRoll, 60 * j + 20 * 65 + 37000);
+			}
+			
+			for(var j = 0; j < 5; j++){
+				//setTimeout(drawRect_RRoll, 60 * j + 20 * 65 + 38000);
+			}
+			
+			function drawRect_URow(){
+				garden.createRandomBloom(URowX, URowY, 12);
+				URowX = URowX + 25;
+			}
+			
+			function drawRect_DRow(){
+				garden.createRandomBloom(DRowX, DRowY + 185, 12);
+				DRowX = DRowX + 25;
+			}
+			
+			function drawRect_LRoll(){
+				garden.createRandomBloom(LRollX, LRollY, 12);
+				LRollY = LRollY + 25;
+			}
+			
+			function drawRect_RRoll(){
+				garden.createRandomBloom(RRollX + 500, RRollY, 12);
+				RRollY = RRollY + 25;
+			}
+			
+			function drawHeart(){
+				flag++;
+				heartX = getX(radian);
+				heartY = getY(radian);
+				radian += radianDecrement;
+				if(flag < 31){
+					if(flag%8==0){
+						garden.createRandomBloom(heartX, heartY, 12);
+					}
+				}else if(flag % 4 == 0){
+					if(radian>Math.PI+300*radianDecrement)
+						garden.createRandomBloom(heartX, heartY, 56 - (5.51) *(radian));
+					else if(!(radian<=Math.PI+205*radianDecrement&&radian>=Math.PI+180*radianDecrement))//只是让变得好看
+						garden.createRandomBloom(heartX, heartY, 12);
+				}
+			}
+
+			function getX(t) {//由弧度得到 X 坐标
+				return 305+r*(16*Math.pow(Math.sin(t),3));
+			}
+			 
+			function getY(t) {//由弧度得到 Y 坐标
+				return 295-r*(13*Math.cos(t)-5*Math.cos(2*t)-2*Math.cos(3*t)-Math.cos(4*t));
+			}
+			//---------------------------------------------------------------
+		    });
+		})(jQuery);
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表白网页演示-1</title>
+<link type="text/css" rel="stylesheet" href="./index_files/default.css">
+<script type="text/javascript" src="./index_files/jquery.min.js"></script>
+<script type="text/javascript" src="./index_files/jscex.min.js"></script>
+<script type="text/javascript" src="./index_files/jscex-parser.js"></script>
+<script type="text/javascript" src="./index_files/jscex-jit.js"></script>
+<script type="text/javascript" src="./index_files/jscex-builderbase.min.js"></script>
+<script type="text/javascript" src="./index_files/jscex-async.min.js"></script>
+<script type="text/javascript" src="./index_files/jscex-async-powerpack.min.js"></script>
+<script type="text/javascript" src="./index_files/functions.js" charset="utf-8"></script>
+<script type="text/javascript" src="./index_files/love.js" charset="utf-8"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #666666}
+-->
+</style>
+</head>
+<body>
+<audio autoplay="autopaly">
+<source src="http://7xiws9.com1.z0.glb.clouddn.com/%E5%B9%B8%E7%A6%8F%E7%9A%84%E4%B8%A4%E4%B8%AA%E4%BA%BA.mp3" type="audio/mp3" />
+</audio>
+<div id="main">
+<div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
+            <div id="wrap">
+                <div id="text">
+			        <div id="code">
+			        	<span class="say">* Our Story</span><br>
+						<span class="say"> </span><br>
+			        	<span class="say"> 娅，我好想你。</span><br>
+						<span class="say"> </span><br>
+                        <span class="say">// 不经意相识, 或许是缘分，或许是注定的。</span><br>
+						<span class="say"> </span><br>
+			        	<span class="say">// 以后不管有怎么样，我都会在。</span><br>
+						<span class="say"> </span><br>
+			        	<span class="say">// 就算全世界都都抛弃你，记得还有我。</span><br>
+						<span class="say"> </span><br>
+			        	<span class="say">// 再累都不用害怕，因为你有我。</span><br>
+						<span class="say"> </span><br>
+			        	<span class="say">// 记得在你最需要的时候想起我。</span><br>
+						<span class="say"> </span><br>
+			        	<span class="say">// 我会一直陪着你。</span><br>
+                        <span class="say"> </span><br>
+                        <span class="say">// You are my only girl..永远..</span><br>
+						<span class="say"> </span><br>
+						<span class="say">// 娅，我永远爱你。 
+						<span class="say"> </span><br>
+                        <span class="say"><span class="space"></span> -- WS--</span>
+			        </div>
+                </div>
+                <div id="clock-box">
+                    WS<span class="STYLE1">与</span> TY<span class="STYLE1">已经相识了</span>
+                  <div id="clock"></div>
+              </div>
+                <canvas id="canvas" width="1100" height="680"></canvas>
+            </div>
+            
+        </div>
+    
+    <script>
+    </script>
+
+    <script>
+    (function(){
+        var canvas = $('#canvas');
+		
+        if (!canvas[0].getContext) {
+            $("#error").show();
+            return false;
+        }
+
+        var width = canvas.width();
+        var height = canvas.height();
+        
+        canvas.attr("width", width);
+        canvas.attr("height", height);
+
+        var opts = {
+            seed: {
+                x: width / 2 - 20,
+                color: "rgb(190, 26, 37)",
+                scale: 2
+            },
+            branch: [
+                [535, 680, 570, 250, 500, 200, 30, 100, [
+                    [540, 500, 455, 417, 340, 400, 13, 100, [
+                        [450, 435, 434, 430, 394, 395, 2, 40]
+                    ]],
+                    [550, 445, 600, 356, 680, 345, 12, 100, [
+                        [578, 400, 648, 409, 661, 426, 3, 80]
+                    ]],
+                    [539, 281, 537, 248, 534, 217, 3, 40],
+                    [546, 397, 413, 247, 328, 244, 9, 80, [
+                        [427, 286, 383, 253, 371, 205, 2, 40],
+                        [498, 345, 435, 315, 395, 330, 4, 60]
+                    ]],
+                    [546, 357, 608, 252, 678, 221, 6, 100, [
+                        [590, 293, 646, 277, 648, 271, 2, 80]
+                    ]]
+                ]] 
+            ],
+            bloom: {
+                num: 700,
+                width: 1080,
+                height: 650,
+            },
+            footer: {
+                width: 1200,
+                height: 5,
+                speed: 10,
+            }
+        }
+
+        var tree = new Tree(canvas[0], width, height, opts);
+        var seed = tree.seed;
+        var foot = tree.footer;
+        var hold = 1;
+
+        canvas.click(function(e) {
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            if (seed.hover(x, y)) {
+                hold = 0; 
+                canvas.unbind("click");
+                canvas.unbind("mousemove");
+                canvas.removeClass('hand');
+            }
+        }).mousemove(function(e){
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            canvas.toggleClass('hand', seed.hover(x, y));
+        });
+
+        var seedAnimate = eval(Jscex.compile("async", function () {
+            seed.draw();
+            while (hold) {
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canScale()) {
+                seed.scale(0.95);
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canMove()) {
+                seed.move(0, 2);
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+        }));
+
+        var growAnimate = eval(Jscex.compile("async", function () {
+            do {
+    	        tree.grow();
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canGrow());
+        }));
+
+        var flowAnimate = eval(Jscex.compile("async", function () {
+            do {
+    	        tree.flower(2);
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canFlower());
+        }));
+
+        var moveAnimate = eval(Jscex.compile("async", function () {
+            tree.snapshot("p1", 240, 0, 610, 680);
+            while (tree.move("p1", 500, 0)) {
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+            foot.draw();
+            tree.snapshot("p2", 500, 0, 610, 680);
+
+            // 会有闪烁不得意这样做, (＞﹏＜)
+            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+            canvas.css("background", "#ffe");
+            $await(Jscex.Async.sleep(300));
+            canvas.css("background", "none");
+        }));
+
+        var jumpAnimate = eval(Jscex.compile("async", function () {
+            var ctx = tree.ctx;
+            while (true) {
+                tree.ctx.clearRect(0, 0, width, height);
+                tree.jump();
+                foot.draw();
+                $await(Jscex.Async.sleep(25));
+            }
+        }));
+
+        var textAnimate = eval(Jscex.compile("async", function () {
+		    var together = new Date();
+		    together.setFullYear(2011, 04, -14); 			//时间年月日
+		    together.setHours(0);						//小时	
+		    together.setMinutes(0);					//分钟
+		    together.setSeconds(0);					//秒前一位
+		    together.setMilliseconds(2);				//秒第二位
+
+		    $("#code").show().typewriter();
+            $("#clock-box").fadeIn(500);
+            while (true) {
+                timeElapse(together);
+                $await(Jscex.Async.sleep(1000));
+            }
+        }));
+
+        var runAsync = eval(Jscex.compile("async", function () {
+            $await(seedAnimate());
+            $await(growAnimate());
+            $await(flowAnimate());
+            $await(moveAnimate());
+
+            textAnimate().start();
+
+            $await(jumpAnimate());
+        }));
+
+        runAsync().start();
+    })();
+    </script>
+</body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f4a9140509a9470a022f0a26664758df";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</html>
+(function(window){
+
+    function random(min, max) {
+        return min + Math.floor(Math.random() * (max - min + 1));
+    }
+
+    function bezier(cp, t) {  
+        var p1 = cp[0].mul((1 - t) * (1 - t));
+        var p2 = cp[1].mul(2 * t * (1 - t));
+        var p3 = cp[2].mul(t * t); 
+        return p1.add(p2).add(p3);
+    }  
+
+    function inheart(x, y, r) {
+        // x^2+(y-(x^2)^(1/3))^2 = 1
+        // http://www.wolframalpha.com/input/?i=x%5E2%2B%28y-%28x%5E2%29%5E%281%2F3%29%29%5E2+%3D+1
+        var z = ((x / r) * (x / r) + (y / r) * (y / r) - 1) * ((x / r) * (x / r) + (y / r) * (y / r) - 1) * ((x / r) * (x / r) + (y / r) * (y / r) - 1) - (x / r) * (x / r) * (y / r) * (y / r) * (y / r);
+        return z < 0;
+    }
+
+    Point = function(x, y) {
+        this.x = x || 0;
+        this.y = y || 0;
+    }
+    Point.prototype = {
+        clone: function() {
+            return new Point(this.x, this.y);
+        },
+        add: function(o) {
+            p = this.clone();
+            p.x += o.x;
+            p.y += o.y;
+            return p;
+        },
+        sub: function(o) {
+            p = this.clone();
+            p.x -= o.x;
+            p.y -= o.y;
+            return p;
+        },
+        div: function(n) {
+            p = this.clone();
+            p.x /= n;
+            p.y /= n;
+            return p;
+        },
+        mul: function(n) {
+            p = this.clone();
+            p.x *= n;
+            p.y *= n;
+            return p;
+        }
+    }
+
+    Heart = function() {
+        // x = 16 sin^3 t
+        // y = 13 cos t - 5 cos 2t - 2 cos 3t - cos 4t
+        // http://www.wolframalpha.com/input/?i=x+%3D+16+sin%5E3+t%2C+y+%3D+(13+cos+t+-+5+cos+2t+-+2+cos+3t+-+cos+4t)
+        var points = [], x, y, t;
+        for (var i = 10; i < 30; i += 0.2) {
+            t = i / Math.PI;
+            x = 16 * Math.pow(Math.sin(t), 3);
+            y = 13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t);
+            points.push(new Point(x, y));
+        }
+        this.points = points;
+        this.length = points.length;
+    }
+    Heart.prototype = {
+        get: function(i, scale) {
+            return this.points[i].mul(scale || 1);
+        }
+    }
+
+    Seed = function(tree, point, scale, color) {
+        this.tree = tree;
+
+        var scale = scale || 1
+        var color = color || '#FF0000';
+
+        this.heart = {
+            point  : point,
+            scale  : scale,
+            color  : color,
+            figure : new Heart(),
+        }
+
+        this.cirle = {
+            point  : point,
+            scale  : scale,
+            color  : color,
+            radius : 5,
+        }
+    }
+    Seed.prototype = {
+        draw: function() {
+            this.drawHeart();
+            this.drawText();
+        },
+        addPosition: function(x, y) {
+            this.cirle.point = this.cirle.point.add(new Point(x, y));
+        },
+        canMove: function() {
+            return this.cirle.point.y < (this.tree.height + 20); 
+        },
+        move: function(x, y) {
+            this.clear();
+            this.drawCirle();
+            this.addPosition(x, y);
+        },
+        canScale: function() {
+            return this.heart.scale > 0.2;
+        },
+        setHeartScale: function(scale) {
+            this.heart.scale *= scale;
+        },
+        scale: function(scale) {
+            this.clear();
+            this.drawCirle();
+            this.drawHeart();
+            this.setHeartScale(scale);
+        },
+        drawHeart: function() {
+            var ctx = this.tree.ctx, heart = this.heart;
+            var point = heart.point, color = heart.color, 
+                scale = heart.scale;
+            ctx.save();
+            ctx.fillStyle = color;
+            ctx.translate(point.x, point.y);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            for (var i = 0; i < heart.figure.length; i++) {
+                var p = heart.figure.get(i, scale);
+                ctx.lineTo(p.x, -p.y);
+            }
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        },
+        drawCirle: function() {
+            var ctx = this.tree.ctx, cirle = this.cirle;
+            var point = cirle.point, color = cirle.color, 
+                scale = cirle.scale, radius = cirle.radius;
+            ctx.save();
+            ctx.fillStyle = color;
+            ctx.translate(point.x, point.y);
+            ctx.scale(scale, scale);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+    	    ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        },
+        drawText: function() {
+            var ctx = this.tree.ctx, heart = this.heart;
+            var point = heart.point, color = heart.color, 
+                scale = heart.scale;
+            ctx.save();
+            ctx.strokeStyle = color;
+            ctx.fillStyle = color;
+            ctx.translate(point.x, point.y);
+            ctx.scale(scale, scale);
+            ctx.moveTo(0, 0);
+    	    ctx.lineTo(15, 15);
+    	    ctx.lineTo(60, 15);
+            ctx.stroke();
+
+            ctx.moveTo(0, 0);
+            ctx.scale(0.75, 0.75);
+            ctx.font = "12px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
+            ctx.fillText("click here", 23, 16);
+            ctx.restore();
+        },
+        clear: function() {
+            var ctx = this.tree.ctx, cirle = this.cirle;
+            var point = cirle.point, scale = cirle.scale, radius = 26;
+            var w = h = (radius * scale);
+            ctx.clearRect(point.x - w, point.y - h, 4 * w, 4 * h);
+        },
+        hover: function(x, y) {
+            var ctx = this.tree.ctx;
+            var pixel = ctx.getImageData(x, y, 1, 1);
+            return pixel.data[3] == 255
+        }
+    }
+
+    Footer = function(tree, width, height, speed) {
+        this.tree = tree;
+        this.point = new Point(tree.seed.heart.point.x, tree.height - height / 2);
+        this.width = width;
+        this.height = height;
+        this.speed = speed || 2;
+        this.length = 0;
+    }
+    Footer.prototype = {
+        draw: function() {
+            var ctx = this.tree.ctx, point = this.point;
+            var len = this.length / 2;
+
+            ctx.save();
+            ctx.strokeStyle = 'rgb(35, 31, 32)';
+            ctx.lineWidth = this.height;
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.translate(point.x, point.y);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+    	    ctx.lineTo(len, 0);
+    	    ctx.lineTo(-len, 0);
+            ctx.stroke();
+            ctx.restore();
+
+            if (this.length < this.width) {
+                this.length += this.speed;
+            }
+        }
+    }
+
+    Tree = function(canvas, width, height, opt) {
+        this.canvas = canvas;
+        this.ctx = canvas.getContext('2d');
+        this.width = width;
+        this.height = height;
+        this.opt = opt || {};
+
+        this.record = {};
+        
+        this.initSeed();
+        this.initFooter();
+        this.initBranch();
+        this.initBloom();
+    }
+    Tree.prototype = {
+        initSeed: function() {
+            var seed = this.opt.seed || {};
+            var x = seed.x || this.width / 2;
+            var y = seed.y || this.height / 2;
+            var point = new Point(x, y);
+            var color = seed.color || '#FF0000';
+            var scale = seed.scale || 1;
+
+            this.seed = new Seed(this, point, scale, color);
+        },
+
+        initFooter: function() {
+            var footer = this.opt.footer || {};
+            var width = footer.width || this.width;
+            var height = footer.height || 5;
+            var speed = footer.speed || 2;
+            this.footer = new Footer(this, width, height, speed);
+        },
+
+        initBranch: function() {
+            var branchs = this.opt.branch || []
+            this.branchs = [];
+            this.addBranchs(branchs);
+        },
+
+        initBloom: function() {
+            var bloom = this.opt.bloom || {};
+            var cache = [],
+                num = bloom.num || 500, 
+                width = bloom.width || this.width,
+                height = bloom.height || this.height,
+                figure = this.seed.heart.figure;
+            var r = 240, x, y;
+            for (var i = 0; i < num; i++) {
+                cache.push(this.createBloom(width, height, r, figure));
+            }
+            this.blooms = [];
+            this.bloomsCache = cache;
+        },
+
+        toDataURL: function(type) {
+            return this.canvas.toDataURL(type);
+        },
+
+        draw: function(k) {
+            var s = this, ctx = s.ctx;
+            var rec = s.record[k];
+            if (!rec) {
+                return ;
+            }
+            var point = rec.point,
+                image = rec.image;
+
+            ctx.save();
+            ctx.putImageData(image, point.x, point.y);
+        	ctx.restore();
+        },
+
+        addBranch: function(branch) {
+        	this.branchs.push(branch);
+        },
+
+        addBranchs: function(branchs){
+            var s = this, b, p1, p2, p3, r, l, c;
+        	for (var i = 0; i < branchs.length; i++) {
+                b = branchs[i];
+                p1 = new Point(b[0], b[1]);
+                p2 = new Point(b[2], b[3]);
+                p3 = new Point(b[4], b[5]);
+                r = b[6];
+                l = b[7];
+                c = b[8]
+                s.addBranch(new Branch(s, p1, p2, p3, r, l, c)); 
+            }
+        },
+
+        removeBranch: function(branch) {
+            var branchs = this.branchs;
+        	for (var i = 0; i < branchs.length; i++) {
+        		if (branchs[i] === branch) {
+        			branchs.splice(i, 1);
+                }
+            }
+        },
+
+        canGrow: function() {
+            return !!this.branchs.length;
+        },
+        grow: function() {
+            var branchs = this.branchs;
+    	    for (var i = 0; i < branchs.length; i++) {
+                var branch = branchs[i];
+                if (branch) {
+                    branch.grow();
+                }
+            }
+        },
+
+        addBloom: function (bloom) {
+            this.blooms.push(bloom);
+        },
+
+        removeBloom: function (bloom) {
+            var blooms = this.blooms;
+            for (var i = 0; i < blooms.length; i++) {
+                if (blooms[i] === bloom) {
+                    blooms.splice(i, 1);
+                }
+            }
+        },
+
+        createBloom: function(width, height, radius, figure, color, alpha, angle, scale, place, speed) {
+            var x, y;
+            while (true) {
+                x = random(20, width - 20);
+                y = random(20, height - 20);
+                if (inheart(x - width / 2, height - (height - 40) / 2 - y, radius)) {
+                    return new Bloom(this, new Point(x, y), figure, color, alpha, angle, scale, place, speed);
+                }
+            }
+        },
+        
+        canFlower: function() {
+            return !!this.blooms.length;
+        }, 
+        flower: function(num) {
+            var s = this, blooms = s.bloomsCache.splice(0, num);
+            for (var i = 0; i < blooms.length; i++) {
+                s.addBloom(blooms[i]);
+            }
+            blooms = s.blooms;
+            for (var j = 0; j < blooms.length; j++) {
+                blooms[j].flower();
+            }
+        },
+
+        snapshot: function(k, x, y, width, height) {
+            var ctx = this.ctx;
+            var image = ctx.getImageData(x, y, width, height); 
+            this.record[k] = {
+                image: image,
+                point: new Point(x, y),
+                width: width,
+                height: height
+            }
+        },
+        setSpeed: function(k, speed) {
+            this.record[k || "move"].speed = speed;
+        },
+        move: function(k, x, y) {
+            var s = this, ctx = s.ctx;
+            var rec = s.record[k || "move"];
+            var point = rec.point,
+                image = rec.image,
+                speed = rec.speed || 10,
+                width = rec.width,
+                height = rec.height; 
+
+            i = point.x + speed < x ? point.x + speed : x;
+            j = point.y + speed < y ? point.y + speed : y; 
+
+            ctx.save();
+            ctx.clearRect(point.x, point.y, width, height);
+            ctx.putImageData(image, i, j);
+        	ctx.restore();
+
+            rec.point = new Point(i, j);
+            rec.speed = speed * 0.95;
+
+            if (rec.speed < 2) {
+                rec.speed = 2;
+            }
+            return i < x || j < y;
+        },
+
+        jump: function() {
+            var s = this, blooms = s.blooms;
+            if (blooms.length) {
+                for (var i = 0; i < blooms.length; i++) {
+                    blooms[i].jump();
+                }
+            } 
+            if ((blooms.length && blooms.length < 3) || !blooms.length) {
+                var bloom = this.opt.bloom || {},
+                    width = bloom.width || this.width,
+                    height = bloom.height || this.height,
+                    figure = this.seed.heart.figure;
+                var r = 240, x, y;
+                for (var i = 0; i < random(1,2); i++) {
+                    blooms.push(this.createBloom(width / 2 + width, height, r, figure, null, 1, null, 1, new Point(random(-100,600), 720), random(200,300)));
+                }
+            }
+        }
+    }
+
+    Branch = function(tree, point1, point2, point3, radius, length, branchs) {
+        this.tree = tree;
+        this.point1 = point1;
+        this.point2 = point2;
+        this.point3 = point3;
+        this.radius = radius;
+        this.length = length || 100;    
+        this.len = 0;
+        this.t = 1 / (this.length - 1);   
+        this.branchs = branchs || [];
+    }
+
+    Branch.prototype = {
+        grow: function() {
+            var s = this, p; 
+            if (s.len <= s.length) {
+                p = bezier([s.point1, s.point2, s.point3], s.len * s.t);
+                s.draw(p);
+                s.len += 1;
+                s.radius *= 0.97;
+            } else {
+                s.tree.removeBranch(s);
+                s.tree.addBranchs(s.branchs);
+            }
+        },
+        draw: function(p) {
+            var s = this;
+            var ctx = s.tree.ctx;
+            ctx.save();
+        	ctx.beginPath();
+        	ctx.fillStyle = 'rgb(35, 31, 32)';
+            ctx.shadowColor = 'rgb(35, 31, 32)';
+            ctx.shadowBlur = 2;
+        	ctx.moveTo(p.x, p.y);
+        	ctx.arc(p.x, p.y, s.radius, 0, 2 * Math.PI);
+        	ctx.closePath();
+        	ctx.fill();
+        	ctx.restore();
+        }
+    }
+
+    Bloom = function(tree, point, figure, color, alpha, angle, scale, place, speed) {
+        this.tree = tree;
+        this.point = point;
+        this.color = color || 'rgb(255,' + random(0, 255) + ',' + random(0, 255) + ')';
+        this.alpha = alpha || random(0.3, 1);
+        this.angle = angle || random(0, 360);
+        this.scale = scale || 0.1;
+        this.place = place;
+        this.speed = speed;
+
+        this.figure = figure;
+    }
+    Bloom.prototype = {
+        setFigure: function(figure) {
+            this.figure = figure;
+        },
+        flower: function() {
+            var s = this;
+            s.draw();
+            s.scale += 0.1;
+            if (s.scale > 1) {
+                s.tree.removeBloom(s);
+            }
+        },
+        draw: function() {
+            var s = this, ctx = s.tree.ctx, figure = s.figure;
+
+            ctx.save();
+            ctx.fillStyle = s.color;
+            ctx.globalAlpha = s.alpha;
+            ctx.translate(s.point.x, s.point.y);
+            ctx.scale(s.scale, s.scale);
+            ctx.rotate(s.angle);
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            for (var i = 0; i < figure.length; i++) {
+                var p = figure.get(i);
+                ctx.lineTo(p.x, -p.y);
+            }
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        },
+        jump: function() {
+            var s = this, height = s.tree.height;
+
+            if (s.point.x < -20 || s.point.y > height + 20) {
+                s.tree.removeBloom(s);
+            } else {
+                s.draw();
+                s.point = s.place.sub(s.point).div(s.speed).add(s.point);
+                s.angle += 0.05;
+                s.speed -= 1;
+            }
+        }
+    }
+
+    window.random = random;
+    window.bezier = bezier;
+    window.Point = Point;
+    window.Tree = Tree;
+
+})(window);
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>qiuqiu</title>
+<link rel="shortcut icon" href="love.ico" type="image/x-icon" />
+<link rel='stylesheet' href='css/55c16d94000109f300000000.css' />
+<link rel='stylesheet' href='css/55c16dab0001286100000000.css' />
+<link rel='stylesheet' href='css/55c16dc00001fa1a00000000.css' />
+<link rel='stylesheet' href='css/55c16dda0001113100000000.css' />
+<script type="text/javascript" src="js/55ac9a860001a6c500000000.js"></script>
+<script type="text/javascript" src="js/55ac9ea30001ace700000000.js"></script>
+<script type="text/javascript" src="js/55c16c910001e21b00000000.js"></script>
+</head>
+<body>
+<div id='content'>
+    <ul class='content-wrap'>
+        <!-- 第一副画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="a_background">
+                <div class="a_background_top"></div>
+                <div class="a_background_middle"></div>
+                <div class="a_background_botton"></div>
+            </div>
+            <!-- 云 -->
+            <div class="cloudArea">
+                <div class="cloud cloud1"></div>
+                <div class="cloud cloud2"></div>
+            </div>
+            <!-- 太阳 -->
+            <div id="sun"></div>
+        </li>
+        <!-- 第二副画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="b_background"></div>
+            <div class="b_background_preload"></div>
+            <!-- 商店 -->
+            <div class="shop">
+                <div class="door">
+                    <div class="door-left"></div>
+                    <div class="door-right"></div>
+                </div>
+                <!-- 灯 -->
+                <div class="lamp"></div>
+            </div>
+            <!-- 鸟 -->
+            <div class="bird"></div>
+        </li>
+        <!-- 第三副画面 -->
+        <li>
+            <!-- 背景图 -->
+            <div class="c_background">
+                <div class="c_background_top"></div>
+                <div class="c_background_middle"></div>
+                <div class="c_background_botton"></div>
+            </div>
+            <!-- 小女孩 -->
+            <div class="girl"></div>
+            <div class="bridge-bottom">
+                <div class="water">
+                    <div id="water1" class="water_1"></div>
+                    <div id="water2" class="water_2"></div>
+                    <div id="water3" class="water_3"></div>
+                    <div id="water4" class="water_4"></div>
+                </div>
+            </div>
+            <!-- 星星 -->
+            <ul class="stars">
+                <li class="stars1"></li>
+                <li class="stars2"></li>
+                <li class="stars3"></li>
+                <li class="stars4"></li>
+                <li class="stars5"></li>
+                <li class="stars6"></li>
+            </ul>
+            <div class="logo">TY，我爱你~~~~~~~~~~</div>
+        </li>
+    </ul>
+    <!-- 雪花 -->
+    <div id="snowflake"></div>
+    <!-- 小男孩 -->
+    <div id="boy" class="charector"></div>
+</div>
+</body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f4a9140509a9470a022f0a26664758df";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>love</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<script type="text/javascript" src="Scripts/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.js"></script>
+<script type="text/javascript" src="Scripts/functions.js"></script>
+<link rel="stylesheet" type="text/css" href="Css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="Css/style.css"/>
+<link rel="shortcut icon" href="/favicon.ico">
+<style>
+	.music{width：0px;height:0px;overflow:hidden;}<!--隐藏最底部播放器-->
+</style>
+</head>
+<body>
+<div class="stage">
+	<ul>
+		<li>
+		<div class="bg" data-url="pic/lib.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h1>WS&amp;TY</h1>
+		<h2>自见过你那一天，我学会了失眠，不为你的容颜，只忆你的笑脸 <br/><a href="#yi"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul>
+		<a name="yi"></a>
+		<li>
+		<div class="bg" data-url="pic/dor.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h2>若不能分分钟见到你的身影，我便会惶恐不安，你的出现，占满了我的视线，我愿跟随你永远。 <br/><a href="#er"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul>
+		<a name="er"></a>
+		<li>
+		<div class="bg" data-url="pic/lemon.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h2>之前我不相信一见钟情，但是见到你的那一刻，我否定了我的看法。<br/><a href="#san"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul>
+		<a name="san"></a>
+		<li>
+		<div class="bg" data-url="pic/fool.jpg">
+		</div>
+		</li>
+		<li class="content" id="item">
+		<h2>我的心为你沦陷，从此只为你跳动。 <br/><a href="#si"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul>
+		<a name="si">
+		<li>
+		<div class="bg" data-url="pic/ferrero.jpg">
+		</div>
+		</li>
+		</a>
+		<li class="content"><a>
+		<h2>有一种爱的感觉，叫感同身受。<br/><a href="#wu"><img src="Picture/np.png"/></a></h2>
+		</a></li>
+	</ul>
+	<ul>
+		<a name="wu"></a>
+		<li>
+		<div class="bg" data-url="pic/geek.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h2>有一种爱的默契，叫心有灵犀。<br/><a href="#liu"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul>
+		<a name="liu"></a>
+		<li>
+		<div class="bg" data-url="pic/koala.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h2>有一种爱的承诺，叫天长地久。<br/><a href="#qi"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul>
+		<a name="qi"></a>
+		<li>
+		<div class="bg" data-url="pic/glass.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h2>有一种爱的方式，是执子之手,与子携老。 <br/><a href="#ba"><img src="Picture/np.png"/></a></h2>
+		</li>
+	</ul>
+	<ul class="last">
+		<a name="ba"></a>
+		<li>
+		<div class="bg" data-url="pic/kk.jpg">
+		</div>
+		</li>
+		<li class="content">
+		<h1>我一直在</h1>
+		<h2 id="elapseClock"> days <span class="digit">20</span> hours <span class="digit">14</span> minutes <span class="digit">00</span> seconds</h2>
+		<script type="text/javascript" src="Scripts/time.js"></script>
+		<a class="up" href="#"><img src="Picture/up.png"/></a></li>
+	</ul>
+	<div class="music">
+		<br/>
+		<p align="center">
+			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&amp;id=28814701&amp;auto=1&amp;height=66">
+			</iframe>
+		</p>
+	</div>
+</div>
+<script type="text/javascript" src="Scripts/main.js"></script>
+</body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f4a9140509a9470a022f0a26664758df";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</html>
+var S={init:function(){var action=window.location.href,i=action.indexOf('?a=');S.Drawing.init('.canvas');document.body.classList.add('body--ready');if(i!==-1){S.UI.simulate(decodeURI(action).substring(i+ 3));}else{S.UI.simulate('#circle|亲爱的|老婆大人|现在是|北京时间|#time|你即将成为|全世界|最幸福|的妻子。|#countdown 5|#show',3000);}
+S.Drawing.loop(function(){S.Shape.render();});}}
+function show(){window.location.href="index.html";};S.Drawing=(function(){var canvas,context,renderFn
+requestFrame=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(callback){window.setTimeout(callback,1000/60);};return{init:function(el){canvas=document.querySelector(el);context=canvas.getContext('2d');this.adjustCanvas();window.addEventListener('resize',function(e){S.Drawing.adjustCanvas();});},loop:function(fn){renderFn=!renderFn?fn:renderFn;this.clearFrame();renderFn();requestFrame.call(window,this.loop.bind(this));},adjustCanvas:function(){canvas.width=window.innerWidth;canvas.height=window.innerHeight;},clearFrame:function(){context.clearRect(0,0,canvas.width,canvas.height);},getArea:function(){return{w:canvas.width,h:canvas.height};},drawCircle:function(p,c){context.fillStyle=c.render();context.beginPath();context.arc(p.x,p.y,p.z,0,2*Math.PI,true);context.closePath();context.fill();}}}());S.UI=(function(){var input=document.querySelector('.ui-input'),ui=document.querySelector('.ui'),help=document.querySelector('.help'),commands=document.querySelector('.commands'),overlay=document.querySelector('.overlay'),canvas=document.querySelector('.canvas'),interval,isTouch=false,currentAction,resizeTimer,time,maxShapeSize=30,firstAction=true,sequence=[],cmd='#';function formatTime(date){var h=date.getHours(),m=date.getMinutes(),m=m<10?'0'+ m:m;return h+':'+ m;}
+function getValue(value){return value&&value.split(' ')[1];}
+function getAction(value){value=value&&value.split(' ')[0];return value&&value[0]===cmd&&value.substring(1);}
+function timedAction(fn,delay,max,reverse){clearInterval(interval);currentAction=reverse?max:1;fn(currentAction);if(!max||(!reverse&&currentAction<max)||(reverse&&currentAction>0)){interval=setInterval(function(){currentAction=reverse?currentAction- 1:currentAction+ 1;fn(currentAction);if((!reverse&&max&&currentAction===max)||(reverse&&currentAction===0)){clearInterval(interval);}},delay);}}
+function reset(destroy){clearInterval(interval);sequence=[];time=null;destroy&&S.Shape.switchShape(S.ShapeBuilder.letter(''));}
+function performAction(value,tsp){var action,value,current;overlay.classList.remove('overlay--visible');sequence=typeof(value)==='object'?value:sequence.concat(value.split('|'));input.value='';checkInputWidth();timedAction(function(index){current=sequence.shift();action=getAction(current);value=getValue(current);switch(action){case'countdown':value=parseInt(value)||10;value=value>0?value:10;timedAction(function(index){if(index===0){if(sequence.length===0){S.Shape.switchShape(S.ShapeBuilder.letter(''));}else{performAction(sequence);}}else{S.Shape.switchShape(S.ShapeBuilder.letter(index),true);}},1000,value,true);break;case'rectangle':value=value&&value.split('x');value=(value&&value.length===2)?value:[maxShapeSize,maxShapeSize/2];S.Shape.switchShape(S.ShapeBuilder.rectangle(Math.min(maxShapeSize,parseInt(value[0])),Math.min(maxShapeSize,parseInt(value[1]))));break;case'circle':value=parseInt(value)||maxShapeSize;value=Math.min(value,maxShapeSize);S.Shape.switchShape(S.ShapeBuilder.circle(value));break;case'time':var t=formatTime(new Date());if(sequence.length>0){S.Shape.switchShape(S.ShapeBuilder.letter(t));}else{timedAction(function(){t=formatTime(new Date());if(t!==time){time=t;S.Shape.switchShape(S.ShapeBuilder.letter(time));}},1000);}
+break;case'show':show();break;default:S.Shape.switchShape(S.ShapeBuilder.letter(current[0]===cmd?'What?':current))
+;
+}},tsp,sequence.length);}
+function checkInputWidth(e){if(input.value.length>18){ui.classList.add('ui--wide');}else{ui.classList.remove('ui--wide');}
+if(firstAction&&input.value.length>0){ui.classList.add('ui--enter');}else{ui.classList.remove('ui--enter');}}
+function bindEvents(){document.body.addEventListener('keydown',function(e){input.focus();if(e.keyCode===13){firstAction=false;reset();performAction(input.value,3000);}});input.addEventListener('input',checkInputWidth);input.addEventListener('change',checkInputWidth);input.addEventListener('focus',checkInputWidth);help.addEventListener('click',function(e){overlay.classList.toggle('overlay--visible');overlay.classList.contains('overlay--visible')&&reset(true);});commands.addEventListener('click',function(e){var el,info,demo,tab,active,url;if(e.target.classList.contains('commands-item')){el=e.target;}else{el=e.target.parentNode.classList.contains('commands-item')?e.target.parentNode:e.target.parentNode.parentNode;}
+info=el&&el.querySelector('.commands-item-info');demo=el&&info.getAttribute('data-demo');url=el&&info.getAttribute('data-url');if(info){overlay.classList.remove('overlay--visible');if(demo){input.value=demo;if(isTouch){reset();performAction(input.value,3000);}else{input.focus();}}else if(url){}}});canvas.addEventListener('click',function(e){overlay.classList.remove('overlay--visible');});}
+function init(){bindEvents();input.focus();isTouch&&document.body.classList.add('touch');}
+init();return{simulate:function(action,tsp){performAction(action,tsp);
+}
+}
+}
+()
+);S.UI.Tabs=(function(){var tabs=document.querySelector('.tabs'),labels=document.querySelector('.tabs-labels'),triggers=document.querySelectorAll('.tabs-label'),panels=document.querySelectorAll('.tabs-panel');function activate(i){triggers[i].classList.add('tabs-label--active');panels[i].classList.add('tabs-panel--active');}
+function bindEvents(){labels.addEventListener('click',function(e){var el=e.target,index;if(el.classList.contains('tabs-label')){for(var t=0;t<triggers.length;t++){triggers[t].classList.remove('tabs-label--active');panels[t].classList.remove('tabs-panel--active');if(el===triggers[t]){index=t;}}
+activate(index);}});}
+function init(){activate(0);bindEvents();}
+init();}());S.Point=function(args){this.x=args.x;this.y=args.y;this.z=args.z;this.a=args.a;this.h=args.h;};S.Color=function(r,g,b,a){this.r=r;this.g=g;this.b=b;this.a=a;};S.Color.prototype={render:function(){return'rgba('+ this.r+','+ +this.g+','+ this.b+','+ this.a+')';}};S.Dot=function(x,y){this.p=new S.Point({x:x,y:y,z:5,a:1,h:0});this.e=0.07;this.s=true;this.c=new S.Color(255,255,255,this.p.a);this.t=this.clone();this.q=[];};S.Dot.prototype={clone:function(){return new S.Point({x:this.x,y:this.y,z:this.z,a:this.a,h:this.h});},_draw:function(){this.c.a=this.p.a;S.Drawing.drawCircle(this.p,this.c);},_moveTowards:function(n){var details=this.distanceTo(n,true),dx=details[0],dy=details[1],d=details[2],e=this.e*d;if(this.p.h===-1){this.p.x=n.x;this.p.y=n.y;return true;}
+if(d>1){this.p.x-=((dx/d)*e);this.p.y-=((dy/d)*e);}else{if(this.p.h>0){this.p.h--;}else{return true;}}
+return false;},_update:function(){if(this._moveTowards(this.t)){var p=this.q.shift();if(p){this.t.x=p.x||this.p.x;this.t.y=p.y||this.p.y;this.t.z=p.z||this.p.z;this.t.a=p.a||this.p.a;this.p.h=p.h||0;}else{if(this.s){this.p.x-=Math.sin(Math.random()*3.142);this.p.y-=Math.sin(Math.random()*3.142);}else{this.move(new S.Point({x:this.p.x+(Math.random()*50)- 25,y:this.p.y+(Math.random()*50)- 25,}));}}}
+d=this.p.a- this.t.a;this.p.a=Math.max(0.1,this.p.a-(d*0.05));d=this.p.z- this.t.z;this.p.z=Math.max(1,this.p.z-(d*0.05));},distanceTo:function(n,details){var dx=this.p.x- n.x,dy=this.p.y- n.y,d=Math.sqrt(dx*dx+ dy*dy);return details?[dx,dy,d]:d;},move:function(p,avoidStatic){if(!avoidStatic||(avoidStatic&&this.distanceTo(p)>1)){this.q.push(p);}},render:function(){this._update();this._draw();}}
+S.ShapeBuilder=(function(){var gap=13,shapeCanvas=document.createElement('canvas'),shapeContext=shapeCanvas.getContext('2d'),fontSize=500,fontFamily='Avenir, Helvetica Neue, Helvetica, Arial, sans-serif';function fit(){shapeCanvas.width=Math.floor(window.innerWidth/gap)*gap;shapeCanvas.height=Math.floor(window.innerHeight/gap)*gap;shapeContext.fillStyle='red';shapeContext.textBaseline='middle';shapeContext.textAlign='center';}
+function processCanvas(){var pixels=shapeContext.getImageData(0,0,shapeCanvas.width,shapeCanvas.height).data;dots=[],pixels,x=0,y=0,fx=shapeCanvas.width,fy=shapeCanvas.height,w=0,h=0;for(var p=0;p<pixels.length;p+=(4*gap)){if(pixels[p+ 3]>0){dots.push(new S.Point({x:x,y:y}));w=x>w?x:w;h=y>h?y:h;fx=x<fx?x:fx;fy=y<fy?y:fy;}
+x+=gap;if(x>=shapeCanvas.width){x=0;y+=gap;p+=gap*4*shapeCanvas.width;}}
+return{dots:dots,w:w+ fx,h:h+ fy};}
+function setFontSize(s){shapeContext.font='bold '+ s+'px '+ fontFamily;}
+function isNumber(n){return!isNaN(parseFloat(n))&&isFinite(n);}
+function init(){fit();window.addEventListener('resize',fit);}
+init();return{imageFile:function(url,callback){var image=new Image();var a=S.Drawing.getArea();image.onload=function(){shapeContext.clearRect(0,0,shapeCanvas.width,shapeCanvas.height);shapeContext.drawImage(this,0,0,a.h*0.6,a.h*0.6);callback(processCanvas());};image.onerror=function(){callback(S.ShapeBuilder.letter('What?'));}
+image.src=url;},circle:function(d){var r=Math.max(0,d)/ 2;
+shapeContext.clearRect(0,0,shapeCanvas.width,shapeCanvas.height);shapeContext.beginPath();shapeContext.arc(r*gap,r*gap,r*gap,0,2*Math.PI,false);shapeContext.fill();shapeContext.closePath();return processCanvas();},letter:function(l){var s=0;setFontSize(fontSize);s=Math.min(fontSize,(shapeCanvas.width/shapeContext.measureText(l).width)*0.8*fontSize,(shapeCanvas.height/fontSize)*(isNumber(l)?1:0.45)*fontSize);setFontSize(s);shapeContext.clearRect(0,0,shapeCanvas.width,shapeCanvas.height);shapeContext.fillText(l,shapeCanvas.width/2,shapeCanvas.height/2);return processCanvas();},rectangle:function(w,h){var dots=[],width=gap*w,height=gap*h;for(var y=0;y<height;y+=gap){for(var x=0;x<width;x+=gap){dots.push(new S.Point({x:x,y:y,}));}}
+return{dots:dots,w:width,h:height};}};}());S.Shape=(function(){var dots=[],width=0,height=0,cx=0,cy=0;function compensate(){var a=S.Drawing.getArea();cx=a.w/2- width/2;cy=a.h/2- height/2;}
+return{shuffleIdle:function(){var a=S.Drawing.getArea();for(var d=0;d<dots.length;d++){if(!dots[d].s){dots[d].move({x:Math.random()*a.w,y:Math.random()*a.h});}}},switchShape:function(n,fast){var size,a=S.Drawing.getArea();width=n.w;height=n.h;compensate();if(n.dots.length>dots.length){size=n.dots.length- dots.length;for(var d=1;d<=size;d++){dots.push(new S.Dot(a.w/2,a.h/2));}}
+var d=0,i=0;while(n.dots.length>0){i=Math.floor(Math.random()*n.dots.length);dots[d].e=fast?0.25:(dots[d].s?0.14:0.11);if(dots[d].s){dots[d].move(new S.Point({z:Math.random()*20+ 10,a:Math.random(),h:18}));}else{dots[d].move(new S.Point({z:Math.random()*5+ 5,h:fast?18:30}));}
+dots[d].s=true;dots[d].move(new S.Point({x:n.dots[i].x+ cx,y:n.dots[i].y+ cy,a:1,z:5,h:0}));n.dots=n.dots.slice(0,i).concat(n.dots.slice(i+ 1));d++;}
+for(var i=d;i<dots.length;i++){if(dots[i].s){dots[i].move(new S.Point({z:Math.random()*20+ 10,a:Math.random(),h:20}));dots[i].s=false;dots[i].e=0.04;dots[i].move(new S.Point({x:Math.random()*a.w,y:Math.random()*a.h,a:0.3,z:Math.random()*4,h:0}));}}},render:function(){for(var d=0;d<dots.length;d++){dots[d].render();}}}}());S.init();
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0027)http://itzoo.info/love.html -->
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Love</title>
+        
+        <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
+        <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
+        <script type="text/javascript" src="./Love_files/jscex.min.js"></script>
+        <script type="text/javascript" src="./Love_files/jscex-parser.js"></script>
+        <script type="text/javascript" src="./Love_files/jscex-jit.js"></script>
+        <script type="text/javascript" src="./Love_files/jscex-builderbase.min.js"></script>
+        <script type="text/javascript" src="./Love_files/jscex-async.min.js"></script>
+        <script type="text/javascript" src="./Love_files/jscex-async-powerpack.min.js"></script>
+        <script type="text/javascript" src="./Love_files/functions.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./Love_files/love.js" charset="utf-8"></script>
+
+    </head>
+    <body>
+        <div id="main">
+           <div id="wrap">
+               <div id="text">
+                    <div id="code">                 
+                    <span class="say">我的爱人，我会牵着你的手，走到满头白发的那一天，</span><br>
+                    <span class="say">我会守护你生命里的精彩，并陪伴你一路精彩下去。</span><br>
+                    <span class="say">你的幸福快乐，是我一生的追求。</span><br>
+                    <span class="say">我会每一天带着笑脸，和你说早安，</span><br>
+                     <span class="say">我会每一晚与你道声晚安再入梦乡，</span><br>
+                    <span class="say">我会带你去所有你想去的地方，</span><br>
+                    <span class="say">陪你闹看你笑</span><br>
+                    <span class="say">历经你生命中所有的点点滴滴。</span><br>
+                    <span class="say">我期待这一生与你一起走过，</span><br>
+                    <span class="say">我期待与你慢慢变老</span><br>
+                    <span class="say">等我们老到哪儿也去不了，</span><br>
+                    <span class="say">还能满载着一生的幸福快乐 ！</span><br>
+                    <br>
+                    <span class="say">我会为我们的未来撑起一片天空，</span><br>
+                     <span class="say">为我们的将来担负起一生的责任，</span><br>
+                      <span class="say">愿意为你去做每一件能让你开心快乐的事。</span><br>
+                       <span class="say">所有我们经历的点点滴滴，</span><br>
+                        <span class="say">都是我们一辈子最美的回忆。</span><br>
+                         <span class="say">我愿意爱你直到老去！</span><br>
+                   <br>
+                    <span class="say"><span class="space"></span> -- Yours, wuxia2001.</span>
+                    </div>
+                </div>
+                <div id="clock-box">
+                    <a href="http://blog.csdn.net/wuxia2001" target="_blank">@wuxia2001</a> 与 <a href="http://blog.csdn.net/wuxia2001" target="_blank">@月亮女</a> 在一起的
+                        <div id="clock"></div>
+                </div>
+                <canvas id="canvas" width="1100" height="680"></canvas>
+            </div>
+            <audio src="love.mp3" autoplay="autoplay"></audio>
+        </div>
+    
+    <script>
+    </script>
+
+    <script>
+    (function(){
+        var canvas = $('#canvas');
+
+        if (!canvas[0].getContext) {
+            $("#error").show();
+            return false;
+        }
+
+        var width = canvas.width();
+        var height = canvas.height();
+        
+        canvas.attr("width", width);
+        canvas.attr("height", height);
+
+        var opts = {
+            seed: {
+                x: width / 2 - 20,
+                color: "rgb(190, 26, 37)",
+                scale: 2
+            },
+            branch: [
+                [535, 680, 570, 250, 500, 200, 30, 100, [
+                    [540, 500, 455, 417, 340, 400, 13, 100, [
+                        [450, 435, 434, 430, 394, 395, 2, 40]
+                    ]],
+                    [550, 445, 600, 356, 680, 345, 12, 100, [
+                        [578, 400, 648, 409, 661, 426, 3, 80]
+                    ]],
+                    [539, 281, 537, 248, 534, 217, 3, 40],
+                    [546, 397, 413, 247, 328, 244, 9, 80, [
+                        [427, 286, 383, 253, 371, 205, 2, 40],
+                        [498, 345, 435, 315, 395, 330, 4, 60]
+                    ]],
+                    [546, 357, 608, 252, 678, 221, 6, 100, [
+                        [590, 293, 646, 277, 648, 271, 2, 80]
+                    ]]
+                ]] 
+            ],
+            bloom: {
+                num: 700,
+                width: 1080,
+                height: 650,
+            },
+            footer: {
+                width: 1200,
+                height: 5,
+                speed: 10,
+            }
+        }
+
+        var tree = new Tree(canvas[0], width, height, opts);
+        var seed = tree.seed;
+        var foot = tree.footer;
+        var hold = 1;
+
+        canvas.click(function(e) {
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            if (seed.hover(x, y)) {
+                hold = 0; 
+                canvas.unbind("click");
+                canvas.unbind("mousemove");
+                canvas.removeClass('hand');
+            }
+        }).mousemove(function(e){
+            var offset = canvas.offset(), x, y;
+            x = e.pageX - offset.left;
+            y = e.pageY - offset.top;
+            canvas.toggleClass('hand', seed.hover(x, y));
+        });
+
+        var seedAnimate = eval(Jscex.compile("async", function () {
+            seed.draw();
+            while (hold) {
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canScale()) {
+                seed.scale(0.95);
+                $await(Jscex.Async.sleep(10));
+            }
+            while (seed.canMove()) {
+                seed.move(0, 2);
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+        }));
+
+        var growAnimate = eval(Jscex.compile("async", function () {
+            do {
+                tree.grow();
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canGrow());
+        }));
+
+        var flowAnimate = eval(Jscex.compile("async", function () {
+            do {
+                tree.flower(2);
+                $await(Jscex.Async.sleep(10));
+            } while (tree.canFlower());
+        }));
+
+        var moveAnimate = eval(Jscex.compile("async", function () {
+            tree.snapshot("p1", 240, 0, 610, 680);
+            while (tree.move("p1", 500, 0)) {
+                foot.draw();
+                $await(Jscex.Async.sleep(10));
+            }
+            foot.draw();
+            tree.snapshot("p2", 500, 0, 610, 680);
+
+            // 会有闪烁不得意这样做, (＞﹏＜)
+            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+            canvas.css("background", "#ffe");
+            $await(Jscex.Async.sleep(300));
+            canvas.css("background", "none");
+        }));
+
+        var jumpAnimate = eval(Jscex.compile("async", function () {
+            var ctx = tree.ctx;
+            while (true) {
+                tree.ctx.clearRect(0, 0, width, height);
+                tree.jump();
+                foot.draw();
+                $await(Jscex.Async.sleep(25));
+            }
+        }));
+
+        var textAnimate = eval(Jscex.compile("async", function () {
+            var together = new Date();
+            together.setFullYear(2010, 5, 8);
+            together.setHours(20);
+            together.setMinutes(20);
+            together.setSeconds(0);
+            together.setMilliseconds(0);
+
+            $("#code").show().typewriter();
+            $("#clock-box").fadeIn(500);
+            while (true) {
+                timeElapse(together);
+                $await(Jscex.Async.sleep(1000));
+            }
+        }));
+
+        var runAsync = eval(Jscex.compile("async", function () {
+            $await(seedAnimate());
+            $await(growAnimate());
+            $await(flowAnimate());
+            $await(moveAnimate());
+
+            textAnimate().start();
+
+            $await(jumpAnimate());
+        }));
+
+        runAsync().start();
+    })();
+    </script>
+
+
+
+</body></html>
+
+<!-- saved from url=(0033)http://www.duocoo.com/love/0o4o0/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css"> 
+<!--
+.STYLE1 {font-size: medium}
+-->
+</style> 
+</head>
+<body bgcolor="url(./icon/bg_105_wrap2.jpg)" ><center><br><br><br><br> 
+<title>我顶着大太阳，只想为你撑伞。——记录着第一次遇见的你！</title> 
+
+<br>To find out the inside beauty of yourself<br> 
+<style type="text/css"> 
+/* Circle Text Styles */
+#outerCircleText {
+/* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
+font-style: italic;
+font-weight: bold;
+font-family: 'comic sans ms', verdana, arial;
+color: #1400FF;
+</style> 
+<script type="text/javascript"> 
+;(function(){
+// Your message here (QUOTED STRING)
+var msg = "我爱你直到永远";
+// Set font's style size for calculating dimensions
+// Set to number of desired pixels font size (decimal and negative numbers not allowed)
+var size = 24;
+// Set both to 1 for plain circle, set one of them to 2 for oval
+// Other numbers & decimals can have interesting effects, keep these low (0 to 3)
+var circleY = 0.75; var circleX = 2;
+// The larger this divisor, the smaller the spaces between letters
+// (decimals allowed, not negative numbers)
+var letter_spacing = 5;
+// The larger this multiplier, the bigger the circle/oval
+// (decimals allowed, not negative numbers, some rounding is applied)
+var diameter = 10;
+// Rotation speed, set it negative if you want it to spin clockwise (decimals allowed)
+var rotation = 0.4;
+// This is not the rotation speed, its the reaction speed, keep low!
+// Set this to 1 or a decimal less than one (decimals allowed, not negative numbers)
+var speed = 0.3;
+if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+msg = msg.split('');
+var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
+ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
+o = document.createElement('div'), oi = document.createElement('div'),
+b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
+mouse = function(e){
+ e = e || window.event;
+ ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; // y-position
+ xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; // x-position
+},
+makecircle = function(){ // rotation/positioning
+ if(init.nopy){
+  o.style.top = (b || document.body).scrollTop + 'px';
+  o.style.left = (b || document.body).scrollLeft + 'px';
+ };
+ currStep -= rotation;
+ for (var d, i = n; i > -1; --i){ // makes the circle
+  d = document.getElementById('iemsg' + i).style;
+  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+ };
+},
+drag = function(){ // makes the resistance
+ y[0] = Y[0] += (ymouse - Y[0]) * speed;
+ x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+ for (var i = n; i > 0; --i){
+  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
+  x[i] = X[i] += (x[i-1] - X[i]) * speed;
+ };
+ makecircle();
+},
+init = function(){ // appends message divs, & sets initial values for positioning arrays
+ if(!isNaN(window.pageYOffset)){
+  ymouse += window.pageYOffset;
+  xmouse += window.pageXOffset;
+ } else init.nopy = true;
+ for (var d, i = n; i > -1; --i){
+  d = document.createElement('div'); d.id = 'iemsg' + i;
+  d.style.height = d.style.width = a + 'px';
+  d.appendChild(document.createTextNode(msg[i]));
+  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
+ };
+ o.appendChild(oi); document.body.appendChild(o);
+ setInterval(drag, 25);
+},
+ascroll = function(){
+ ymouse += window.pageYOffset;
+ xmouse += window.pageXOffset;
+ window.removeEventListener('scroll', ascroll, false);
+};
+o.id = 'outerCircleText'; o.style.fontSize = size + 'px';
+if (window.addEventListener){
+ window.addEventListener('load', init, false);
+ document.addEventListener('mouseover', mouse, false);
+ document.addEventListener('mousemove', mouse, false);
+  if (/Apple/.test(navigator.vendor))
+   window.addEventListener('scroll', ascroll, false);
+}
+else if (window.attachEvent){
+ window.attachEvent('onload', init);
+ document.attachEvent('onmousemove', mouse);
+};
+})();
+</script> 
+<script type="text/javascript"> 
+<!-- Begin
+/*
+ * Notes on hue
+ *
+ * This script uses hue rotation in the following manner:
+ * hue=0   is red (#FF0000)
+ * hue=60  is yellow (#FFFF00)
+ * hue=120 is green (#00FF00)
+ * hue=180 is cyan (#00FFFF)
+ * hue=240 is blue (#0000FF)
+ * hue=300 is magenta (#FF00FF)
+ * hue=360 is hue=0 (#FF0000)
+ *
+ * Notes on the script
+ *
+ * This script should function in any browser that supports document.getElementById
+ * It has been tested in Netscape7, Mozilla Firefox 1.0, and Internet Explorer 6
+ *
+ * Accessibility
+ *
+ * The script does not write the string out, but rather takes it from an existing
+ * HTML element. Therefore, users with javascript disabled will not be adverely affected.
+ * They just won't get the pretty colors.
+ */
+ 
+/*
+ * splits par.firstChild.data into 1 span for each letter
+ * ARGUMENTS
+ *   span - HTML element containing a text node as the only element
+ */
+function toSpans(span) {
+  var str=span.firstChild.data;
+  var a=str.length;
+  span.removeChild(span.firstChild);
+  for(var i=0; i<a; i++) {
+    var theSpan=document.createElement("SPAN");
+    theSpan.appendChild(document.createTextNode(str.charAt(i)));
+    span.appendChild(theSpan);
+  }
+}
+function RainbowSpan(span, hue, deg, brt, spd, hspd) {
+    this.deg=(deg==null?360:Math.abs(deg));
+    this.hue=(hue==null?0:Math.abs(hue)%360);
+    this.hspd=(hspd==null?3:Math.abs(hspd)%360);
+    this.length=span.firstChild.data.length;
+    this.span=span;
+    this.speed=(spd==null?50:Math.abs(spd));
+    this.hInc=this.deg/this.length;
+    this.brt=(brt==null?255:Math.abs(brt)%256);
+    this.timer=null;
+    toSpans(span);
+    this.moveRainbow();
+}
+RainbowSpan.prototype.moveRainbow = function() {
+  if(this.hue>359) this.hue-=360;
+  var color;
+  var b=this.brt;
+  var a=this.length;
+  var h=this.hue;
+ 
+  for(var i=0; i<a; i++) {
+ 
+    if(h>359) h-=360;
+ 
+    if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
+    else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
+    else if(h<180) { color=Math.floor(((h-120)/60)*b); red=0;grn=b;blu=color; }
+    else if(h<240) { color=Math.floor(((h-180)/60)*b); red=0;grn=b-color;blu=b; }
+    else if(h<300) { color=Math.floor(((h-240)/60)*b); red=color;grn=0;blu=b; }
+    else { color=Math.floor(((h-300)/60)*b); red=b;grn=0;blu=b-color; }
+ 
+    h+=this.hInc;
+ 
+    this.span.childNodes[i].style.color="rgb("+red+", "+grn+", "+blu+")";
+  }
+  this.hue+=this.hspd;
+}
+// End -->
+</script> 
+ 
+
+ 
+<style> 
+body {
+ padding:0;
+ margin:0;
+ background-image:url(./icon/bg_105_wrap2.jpg);
+ background-repeat: no-repeat;
+ background-position:bottom;
+
+color: #ffffff;
+font: normal 80% Verdana;
+margin-top: 0px;
+margin-left: 0px;
+padding: 0;
+margin-right: 0px;
+}
+</style> 
+<div align="center"> 
+<h1 id="r1"><span style="color: rgb(0, 255, 25);">我</span><span style="color: rgb(0, 255, 143);">爱</span><span style="color: rgb(0, 250, 255);">你</span><span style="color: rgb(0, 132, 255);">，</span><span style="color: rgb(0, 14, 255);">这</span><span style="color: rgb(103, 0, 255);">是</span><span style="color: rgb(221, 0, 255);">个</span><span style="color: rgb(255, 0, 171);">不</span><span style="color: rgb(255, 0, 53);">能</span><span style="color: rgb(255, 64, 0);">说</span><span style="color: rgb(255, 182, 0);">的</span><span style="color: rgb(210, 255, 0);">秘</span><span style="color: rgb(93, 255, 0);">密</span></h1> 
+</div> 
+<script type="text/javascript"> 
+var r1=document.getElementById("r1"); //get span to apply rainbow
+var myRainbowSpan=new RainbowSpan(r1, 0, 360, 255, 50, 18); //apply static rainbow effect
+myRainbowSpan.timer=window.setInterval("myRainbowSpan.moveRainbow()", myRainbowSpan.speed);
+</script> 
+<div align="center"> 
+<p class="STYLE1" id="r2"><span style="color: rgb(255, 153, 0);">我</span><span style="color: rgb(255, 205, 0);">顶</span><span style="color: rgb(252, 255, 0);">着</span><span style="color: rgb(199, 255, 0);">大</span><span style="color: rgb(146, 255, 0);">太</span><span style="color: rgb(94, 255, 0);">阳</span><span style="color: rgb(41, 255, 0);">，</span><span style="color: rgb(0, 255, 12);">只</span><span style="color: rgb(0, 255, 65);">想</span><span style="color: rgb(0, 255, 117);">为</span><span style="color: rgb(0, 255, 170);">你</span><span style="color: rgb(0, 255, 223);">撑</span><span style="color: rgb(0, 234, 255);">伞</span><span style="color: rgb(0, 182, 255);">。</span><span style="color: rgb(0, 129, 255);">—</span><span style="color: rgb(0, 76, 255);">—</span><span style="color: rgb(0, 23, 255);">记</span><span style="color: rgb(29, 0, 255);">录</span><span style="color: rgb(82, 0, 255);">着</span><span style="color: rgb(135, 0, 255);">第</span><span style="color: rgb(188, 0, 255);">一</span><span style="color: rgb(240, 0, 255);">次</span><span style="color: rgb(255, 0, 217);">遇</span><span style="color: rgb(255, 0, 164);">见</span><span style="color: rgb(255, 0, 111);">的</span><span style="color: rgb(255, 0, 59);">你</span><span style="color: rgb(255, 0, 6);">！</span><span style="color: rgb(255, 47, 0);">
+</span><span style="color: rgb(255, 100, 0);"> </span></p> 
+</div> 
+<script type="text/javascript"> 
+var r2=document.getElementById("r2"); //get span to apply rainbow
+var myRainbowSpan2=new RainbowSpan(r2, 0, 360, 255, 50, 348); //apply static rainbow effect
+myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
+</script> 
+ 
+   
+ 
+ 
+<style type="text/css"> 
+/* Circle Text Styles */
+#outerCircleText {
+/* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
+font-style: italic;
+font-weight: bold;
+font-family: 'comic sans ms', verdana, arial;
+color: #ff0000;
+/* End Optional */
+/* Start Required - Do Not Edit */
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
+#outerCircleText div {position: relative;}
+#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+/* End Required */
+/* End Circle Text Styles */
+</style> 
+<script type="text/javascript"> 
+;(function(){
+// Your message here (QUOTED STRING)
+var msg = "";
+/* THE REST OF THE EDITABLE VALUES BELOW ARE ALL UNQUOTED NUMBERS */
+// Set font's style size for calculating dimensions
+// Set to number of desired pixels font size (decimal and negative numbers not allowed)
+var size = 24;
+// Set both to 1 for plain circle, set one of them to 2 for oval
+// Other numbers & decimals can have interesting effects, keep these low (0 to 3)
+var circleY = 0.75; var circleX = 2;
+// The larger this divisor, the smaller the spaces between letters
+// (decimals allowed, not negative numbers)
+var letter_spacing = 5;
+// The larger this multiplier, the bigger the circle/oval
+// (decimals allowed, not negative numbers, some rounding is applied)
+var diameter = 10;
+// Rotation speed, set it negative if you want it to spin clockwise (decimals allowed)
+var rotation = 0.4;
+// This is not the rotation speed, its the reaction speed, keep low!
+// Set this to 1 or a decimal less than one (decimals allowed, not negative numbers)
+var speed = 0.3;
+if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+msg = msg.split(');
+var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
+ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
+o = document.createElement('div'), oi = document.createElement('div'),
+b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
+mouse = function(e){
+ e = e || window.event;
+ ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; // y-position
+ xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; // x-position
+},
+makecircle = function(){ // rotation/positioning
+ if(init.nopy){
+  o.style.top = (b || document.body).scrollTop + 'px';
+  o.style.left = (b || document.body).scrollLeft + 'px';
+ };
+ currStep -= rotation;
+ for (var d, i = n; i > -1; --i){ // makes the circle
+  d = document.getElementById('iemsg' + i).style;
+  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+ };
+},
+drag = function(){ // makes the resistance
+ y[0] = Y[0] += (ymouse - Y[0]) * speed;
+ x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+ for (var i = n; i > 0; --i){
+  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
+  x[i] = X[i] += (x[i-1] - X[i]) * speed;
+ };
+ makecircle();
+},
+init = function(){ // appends message divs, & sets initial values for positioning arrays
+ if(!isNaN(window.pageYOffset)){
+  ymouse += window.pageYOffset;
+  xmouse += window.pageXOffset;
+ } else init.nopy = true;
+ for (var d, i = n; i > -1; --i){
+  d = document.createElement('div'); d.id = 'iemsg' + i;
+  d.style.height = d.style.width = a + 'px';
+  d.appendChild(document.createTextNode(msg[i]));
+  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
+ };
+ o.appendChild(oi); document.body.appendChild(o);
+ setInterval(drag, 25);
+},
+ascroll = function(){
+ ymouse += window.pageYOffset;
+ xmouse += window.pageXOffset;
+ window.removeEventListener('scroll', ascroll, false);
+};
+o.id = 'outerCircleText'; o.style.fontSize = size + 'px';
+if (window.addEventListener){
+ window.addEventListener('load', init, false);
+ document.addEventListener('mouseover', mouse, false);
+ document.addEventListener('mousemove', mouse, false);
+  if (/Apple/.test(navigator.vendor))
+   window.addEventListener('scroll', ascroll, false);
+}
+else if (window.attachEvent){
+ window.attachEvent('onload', init);
+ document.attachEvent('onmousemove', mouse);
+};
+})();
+</script> 
+<center><div style="border: 2px solid ; overflow: auto; color: black; background-color: gray; width: 80%;
+background:rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+filter:Alpha(opacity=70); background:#fff;}
+.con p{ position:relative;"> 
+<h2> 
+<center> 
+<script language="JavaScript1.2"> 
+var message="某人，我喜欢你，不长，到我老去。"
+var neonbasecolor="white"
+var neontextcolor="red"
+var flashspeed=100  //in milliseconds
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+function neon(){
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+//eval("document.all.neonlight"+m).style.color=neonbasecolor
+crossref(m).style.color=neonbasecolor
+}
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1500)
+return
+}
+}
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+</script><font color="white"><span id="neonlight0" style="color: red;">某</span><span id="neonlight1" style="color: red;">人</span><span id="neonlight2" style="color: red;">，</span><span id="neonlight3" style="color: red;">我</span><span id="neonlight4" style="color: red;">喜</span><span id="neonlight5" style="color: white;">欢</span><span id="neonlight6" style="color: white;">你</span><span id="neonlight7" style="color: white;">，</span><span id="neonlight8" style="color: white;">不</span><span id="neonlight9" style="color: white;">长</span><span id="neonlight10" style="color: white;">，</span><span id="neonlight11" style="color: white;">到</span><span id="neonlight12" style="color: white;">我</span><span id="neonlight13" style="color: white;">老</span><span id="neonlight14" style="color: white;">去</span><span id="neonlight15" style="color: white;">。</span></font></center></h2> 
+<img src="./icon/20140523223608.gif" tppabs="http://i7.topit.me/7/3b/fa/1177856673f6afa3b7l.jpg" align="middle" border="0"><br> 
+    <center> 
+<font face="Monotype Corsiva" size="3" color="#ffffff"> <br>   <br>怎么办<br>怎么办我就是爱你<br>怎么办我就是想你<br>无论喝茶还是刷牙<br>想着你<br>怎么办我的心已经容不下<br>除了你没有其他<br> 
+ 
+ 
+ 
+<br> 
+ <script type="text/javascript"> 
+/*Important Function to blend the tabs in and out*/
+function blendoff(idname) {document.getElementById(idname).style.display = 'none';}
+function blendon(idname) {document.getElementById(idname).style.display = 'block';}
+</script> 
+<script type="text/javascript"> 
+/*Function for our Tabmenu with 4 Tabs*/
+function swichtabs(wert) {
+if (wert=='1'){
+document.getElementById('tablink1').className='tab1 tabactive';
+document.getElementById('tablink2').className='tab2';
+document.getElementById('tablink3').className='tab3';
+document.getElementById('tablink4').className='tab4';
+}else if (wert=='2'){
+document.getElementById('tablink1').className='tab1';
+document.getElementById('tablink2').className='tab2 tabactive';
+document.getElementById('tablink3').className='tab3';
+document.getElementById('tablink4').className='tab4';
+}else if (wert=='3'){
+document.getElementById('tablink1').className='tab1';
+document.getElementById('tablink2').className='tab2';
+document.getElementById('tablink3').className='tab3 tabactive';
+document.getElementById('tablink4').className='tab4';
+} else if (wert=='4'){
+document.getElementById('tablink1').className='tab1';
+document.getElementById('tablink2').className='tab2';
+document.getElementById('tablink3').className='tab3';
+document.getElementById('tablink4').className='tab4 tabactive';
+}
+}
+</script> 
+<script language="JavaScript" type="text/javascript"> 
+<!--
+var rows=1; // must be an odd number
+var speed=10; // lower is faster
+var reveal=2; // between 0 and 2 only. The higher, the faster the word appears
+var effectalign="default" //enter "center" to center it.
+var w3c=document.getElementById && !window.opera;;
+var ie45=document.all && !window.opera;
+var ma_tab, matemp, ma_bod, ma_row, x, y, columns, ma_txt, ma_cho;
+var m_coch=new Array();
+var m_copo=new Array();
+function matrix() {
+if (!w3c && !ie45) return
+var matrix=(w3c)?document.getElementById("matrix"):document.all["matrix"];
+ma_txt=(w3c)?matrix.firstChild.nodeValue:matrix.innerHTML;
+ma_txt=" "+ma_txt+" ";
+columns=ma_txt.length;
+if (w3c) {
+while (matrix.childNodes.length) matrix.removeChild(matrix.childNodes[0]);
+ma_tab=document.createElement("table");
+ma_tab.setAttribute("border", 0);
+ma_tab.setAttribute("align", effectalign);
+ma_tab.style.backgroundColor="#000000";
+ma_bod=document.createElement("tbody");
+for (x=0; x<rows; x++) {
+ma_row=document.createElement("tr");
+for (y=0; y<columns; y++) {
+matemp=document.createElement("td");
+matemp.setAttribute("id", "Mx"+x+"y"+y);
+matemp.className="matrix";
+matemp.appendChild(document.createTextNode(String.fronCharCode(160)));
+ma_row.appendChild(matemp);
+}
+ma_bod.appendChild(ma_row);
+}
+ma_tab.appendChild(ma_bod);
+matrix.appendChild(ma_tab);
+} else {
+ma_tab='<ta'+'ble align="'+effectalign+'" border="0" style="background-color:#000000">';
+for (var x=0; x<rows; x++) {
+ma_tab+='<t'+'r>';
+for (var y=0; y<columns; y++) {
+ma_tab+='<t'+'d class="matrix" id="Mx'+x+'y'+y+'">&nbsp;</'+'td>';
+}
+ma_tab+='</'+'tr>';
+}
+ma_tab+='</'+'table>';
+matrix.innerHTML=ma_tab;
+}
+ma_cho=ma_txt;
+for (x=0; x<columns; x++) {
+ma_cho+=String.fronCharCode(32+Math.floor(Math.random()*94));
+m_copo[x]=0;
+}
+ma_bod=setInterval("mytricks()", speed);
+}
+ 
+function mytricks() {
+x=0;
+for (y=0; y<columns; y++) {
+x=x+(m_copo[y]==100);
+ma_row=m_copo[y]%100;
+if (ma_row && m_copo[y]<100) {
+if (ma_row<rows+1) {
+if (w3c) {
+matemp=document.getElementById("Mx"+(ma_row-1)+"y"+y);
+matemp.firstChild.nodeValue=m_coch[y];
+}
+else {
+matemp=document.all["Mx"+(ma_row-1)+"y"+y];
+matemp.innerHTML=m_coch[y];
+}
+matemp.style.color="#FF0000";
+matemp.style.fontWeight="bold";
+}
+if (ma_row>1 && ma_row<rows+2) {
+matemp=(w3c)?document.getElementById("Mx"+(ma_row-2)+"y"+y):document.all["Mx"+(ma_row-2)+"y"+y];
+matemp.style.fontWeight="normal";
+matemp.style.color="#FF0000";
+}
+if (ma_row>2) {
+matemp=(w3c)?document.getElementById("Mx"+(ma_row-3)+"y"+y):document.all["Mx"+(ma_row-3)+"y"+y];
+matemp.style.color="#FF0000";
+}
+if (ma_row<Math.floor(rows/2)+1) m_copo[y]++;
+else if (ma_row==Math.floor(rows/2)+1 && m_coch[y]==ma_txt.charAt(y)) zoomer(y);
+else if (ma_row<rows+2) m_copo[y]++;
+else if (m_copo[y]<100) m_copo[y]=0;
+}
+else if (Math.random()>0.9 && m_copo[y]<100) {
+m_coch[y]=ma_cho.charAt(Math.floor(Math.random()*ma_cho.length));
+m_copo[y]++;
+}
+}
+if (x==columns) clearInterval(ma_bod);
+}
+function zoomer(ycol) {
+var mtmp, mtem, ytmp;
+if (m_copo[ycol]==Math.floor(rows/2)+1) {
+for (ytmp=0; ytmp<rows; ytmp++) {
+if (w3c) {
+mtmp=document.getElementById("Mx"+ytmp+"y"+ycol);
+mtmp.firstChild.nodeValue=m_coch[ycol];
+}
+else {
+mtmp=document.all["Mx"+ytmp+"y"+ycol];
+mtmp.innerHTML=m_coch[ycol];
+}
+mtmp.style.color="#FF0000";
+mtmp.style.fontWeight="bold";
+}
+if (Math.random()<reveal) {
+mtmp=ma_cho.indexOf(ma_txt.charAt(ycol));
+ma_cho=ma_cho.substring(0, mtmp)+ma_cho.substring(mtmp+1, ma_cho.length);
+}
+if (Math.random()<reveal-1) ma_cho=ma_cho.substring(0, ma_cho.length-1);
+m_copo[ycol]+=199;
+setTimeout("zoomer("+ycol+")", speed);
+}
+else if (m_copo[ycol]>200) {
+if (w3c) {
+mtmp=document.getElementById("Mx"+(m_copo[ycol]-201)+"y"+ycol);
+mtem=document.getElementById("Mx"+(200+rows-m_copo[ycol]--)+"y"+ycol);
+}
+else {
+mtmp=document.all["Mx"+(m_copo[ycol]-201)+"y"+ycol];
+mtem=document.all["Mx"+(200+rows-m_copo[ycol]--)+"y"+ycol];
+}
+mtmp.style.fontWeight="normal";
+mtem.style.fontWeight="normal";
+setTimeout("zoomer("+ycol+")", speed);
+}
+else if (m_copo[ycol]==200) m_copo[ycol]=100+Math.floor(rows/2);
+if (m_copo[ycol]>100 && m_copo[ycol]<200) {
+if (w3c) {
+mtmp=document.getElementById("Mx"+(m_copo[ycol]-101)+"y"+ycol);
+mtmp.firstChild.nodeValue=String.fronCharCode(160);
+mtem=document.getElementById("Mx"+(100+rows-m_copo[ycol]--)+"y"+ycol);
+mtem.firstChild.nodeValue=String.fronCharCode(160);
+}
+else {
+mtmp=document.all["Mx"+(m_copo[ycol]-101)+"y"+ycol];
+mtmp.innerHTML=String.fronCharCode(160);
+mtem=document.all["Mx"+(100+rows-m_copo[ycol]--)+"y"+ycol];
+mtem.innerHTML=String.fronCharCode(160);
+}
+setTimeout("zoomer("+ycol+")", speed);
+}
+}
+// --> 
+setTimeout('matrix()', 1);
+col=0;
+function fadein()
+{
+document.getElementById("fade1").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade2").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade3").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade4").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade5").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade6").style.color="rgb(" + col + ",0,0)";
+col+=5;
+if(col<255) setTimeout('fadein()', 1);
+if(col==255) setTimeout('fadeout()', 1);
+}
+function fadeout()
+{
+document.getElementById("fade1").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade2").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade3").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade4").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade5").style.color="rgb(" + col + ",0,0)";
+document.getElementById("fade6").style.color="rgb(" + col + ",0,0)";
+col-=5;
+if(col>0) setTimeout('fadeout()', 1);
+if(col==0) setTimeout('fadein()', 1);
+}
+setTimeout('fadein()', 1);
+</script> 
+<script language="JavaScript1.2"> 
+function disableselect(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script> 
+<embed src="http://player.yinyuetai.com/video/player/43814/v_0.swf" type="application/x-shockwave-flash" width="550" height="400" quality="high">
+<br> 
+</font><p></p><bgsound balance="0" volume="0" loop="infinite"></bgsound>
+<script language="javascript"> <div class=startanmo><ul>
+</center> 
+</div><center><DIV id=matrix>xxxxxxxxx</DIV><!-- xxxxxxxxx --> 
+</center></body> 
+<html> 
+</center></html>
+
+
+<p align="center" style="font-size:12px">
+<font color="#008000">
+
+</font>
+</p> 
+
+</div>
+</script>
+</center>
+</div>
+</center>
+</center>
+</div>
+
+</div>
+</body>
+</html>
